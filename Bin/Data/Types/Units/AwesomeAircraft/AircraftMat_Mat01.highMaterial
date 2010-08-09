@@ -1,0 +1,9 @@
+highLevelMaterial AircraftMat/Mat01
+{
+	template = ShaderBaseMaterial
+	diffuseColor = 0.6980392 0.6980392 0.6980392
+	diffuse1Map
+	{
+		texture = Types\Units\AwesomeAircraft\WMR.JPG
+	}
+}

@@ -1,0 +1,5 @@
+highLevelMaterial AircraftMat/Mat08
+{
+	template = ShaderBaseMaterial
+	diffuseScale = 0.227451 0.1176471 0.04705883
+}

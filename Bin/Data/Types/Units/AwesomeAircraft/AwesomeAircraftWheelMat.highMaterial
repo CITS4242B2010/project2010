@@ -1,0 +1,5 @@
+highLevelMaterial AwesomeAircraftWheelMat
+{
+	template = ShaderBaseMaterial
+	diffuseScale = 0.4862745 0.3254902 0.08235294
+}

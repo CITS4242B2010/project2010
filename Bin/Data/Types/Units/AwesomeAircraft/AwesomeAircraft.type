@@ -1,0 +1,14 @@
+type AwesomeAircraft
+{
+	class = AwesomeAircraft
+	allowPlayerControl = True
+	physicsModel = Types\Units\AwesomeAircraft\AwesomeAircraft.physics
+	allowEditorCreate = True
+	attachedObjects
+	{
+		mesh
+		{
+			meshName = Types\Units\AwesomeAircraft\AwesomeAircraft.mesh
+		}
+	}
+}

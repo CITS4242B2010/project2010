@@ -1,0 +1,4 @@
+highLevelMaterial AircraftMat/Mat04
+{
+	template = ShaderBaseMaterial
+}
