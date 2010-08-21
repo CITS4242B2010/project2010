@@ -10,3 +10,9 @@ C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.852\Game - Copy (2)\Bin\GameEntit
 C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.852\Game - Copy (2)\Src\GameEntities\obj\Debug\ResolveAssemblyReference.cache
 C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.852\Game - Copy (2)\Src\GameEntities\obj\Debug\GameEntities.dll
 C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.852\Game - Copy (2)\Src\GameEntities\obj\Debug\GameEntities.pdb
+H:\Project_Work\FlightGame\Bin\GameEntities.dll
+H:\Project_Work\FlightGame\Bin\GameEntities.pdb
+H:\Project_Work\FlightGame\Bin\GameEntities.xml
+H:\Project_Work\FlightGame\Src\GameEntities\obj\Debug\ResolveAssemblyReference.cache
+H:\Project_Work\FlightGame\Src\GameEntities\obj\Debug\GameEntities.dll
+H:\Project_Work\FlightGame\Src\GameEntities\obj\Debug\GameEntities.pdb

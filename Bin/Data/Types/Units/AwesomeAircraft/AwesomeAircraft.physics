@@ -7,8 +7,14 @@ physicsModel
 		shape
 		{
 			type = box
-			position = 0 0 0.2
-			dimensions = 1.55 1.2 0.32
+			position = 0 0 0.3
+			materialName = Metal
+			hardness = 1
+			staticFriction = 0.7
+			dynamicFriction = 0.7
+			bounciness = 0.05
+			density = 1
+			dimensions = 1.25 1.3 0.33
 		}
 	}
 }

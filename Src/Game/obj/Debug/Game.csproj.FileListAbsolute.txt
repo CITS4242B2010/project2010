@@ -16,3 +16,12 @@ C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.852\Game - Copy (2)\Src\Game\obj\
 C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.852\Game - Copy (2)\Src\Game\obj\Debug\GenerateResource-ResGen.write.1.tlog
 C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.852\Game - Copy (2)\Src\Game\obj\Debug\Game.exe
 C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.852\Game - Copy (2)\Src\Game\obj\Debug\Game.pdb
+H:\Project_Work\FlightGame\Bin\Game.exe
+H:\Project_Work\FlightGame\Bin\Game.pdb
+H:\Project_Work\FlightGame\Bin\Game.xml
+H:\Project_Work\FlightGame\Src\Game\obj\Debug\ResolveAssemblyReference.cache
+H:\Project_Work\FlightGame\Src\Game\obj\Debug\Game.Properties.Resources.resources
+H:\Project_Work\FlightGame\Src\Game\obj\Debug\GenerateResource-ResGen.read.1.tlog
+H:\Project_Work\FlightGame\Src\Game\obj\Debug\GenerateResource-ResGen.write.1.tlog
+H:\Project_Work\FlightGame\Src\Game\obj\Debug\Game.exe
+H:\Project_Work\FlightGame\Src\Game\obj\Debug\Game.pdb

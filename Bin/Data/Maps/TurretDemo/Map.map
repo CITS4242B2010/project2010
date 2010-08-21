@@ -5,7 +5,7 @@ gameType = TurretDemo
 gameMusic = Sounds\Music\Game.ogg
 ambientLight = 0.2 0.2 0.2
 editorCameraPosition = -140.703 -2.206908 11.69151
-editorCameraDirection = 3.709198 -0.7033443
+editorCameraDirection = 4.341388 -0.6181428
 shadowColor = 0.6 0.6 0.6 0.6
 shadowCubicTextureSize = 1024
 logicSystemManager = 8
@@ -1220,4 +1220,20 @@ entity
 	rotation = 0 0 -0.9764018 0.215962
 	scale = 11.33962 6.858971 9.9275
 	name = AwesomeAircraft_0
+}
+entity
+{
+	type = AwesomeAircraft
+	uin = 121
+	classPrompt = AwesomeAircraft
+	intellectShouldDeleteAfterDetach = False
+	position = -148.2123 -23.16454 0.5759111
+	rotation = 0 0 -0.1838295 0.9829581
+	name = AwesomeAircraft_1
+}
+entity
+{
+	type = BlueDaySky
+	uin = 122
+	classPrompt = CameraAttachedObject
 }

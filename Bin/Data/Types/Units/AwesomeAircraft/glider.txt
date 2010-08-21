@@ -1,7 +1,7 @@
 #general parameters
 msg1	 	Glider_aileron_:_best_handling
 msg2	 	(only_one_able_to_go_through_all_the_tunnels)
-mass		0.7 # glider mass
+mass		1000 # glider mass
 I_x		0.6 # Moment of inertia about x
 I_y		0.2 # Moment of inertia about y
 I_z		0.9 # Moment of inertia about z
@@ -26,9 +26,9 @@ elevatorDamping		.03
 rudderMax		2
 rudderInc		.05
 rudderDamping           .03
-accelInc                .005
-accelMax                7
-speedMax                10
+accelInc                .05
+accelMax                30
+speedMax                50
 end handling
 
 
@@ -39,7 +39,7 @@ begin engine
 name engine
 # max min_force > max_force to flip the sense of the controlling channel
 min_force 0   # force in Newtons for when control is min
-max_force 30  # force in Newtons (mass * 10 * 2) for when control is max
+max_force 10  # force in Newtons (mass * 10 * 2) for when control is max
 max_airspeed 60 # airspeed (m/s) at which the engine becomes useless
 control_per_chan_3 1 # indicates what channel is used for this engine
 helix_position_x 0.1

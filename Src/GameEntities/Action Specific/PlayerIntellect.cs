@@ -354,7 +354,7 @@ namespace GameEntities
 						offset.X -= GetControlKeyStrength( GameControlKeys.Left );
 						offset.X += GetControlKeyStrength( GameControlKeys.Right );
 						offset.Y += GetControlKeyStrength( GameControlKeys.Forward );
-						offset.Y -= GetControlKeyStrength( GameControlKeys.Backward );
+						offset.Y += GetControlKeyStrength( GameControlKeys.Backward );
 					}
 
 					offset *= evt.Delta * sensitivity;

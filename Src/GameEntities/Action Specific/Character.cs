@@ -516,7 +516,7 @@ namespace GameEntities
 				//small distinction of different physics libraries.
 				if( IsPhysX() )
 					mainBody.LinearDamping = 9.3f;
-				else
+				else 
 					mainBody.LinearDamping = 10;
 			}
 			else

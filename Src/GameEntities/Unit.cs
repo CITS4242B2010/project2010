@@ -79,6 +79,7 @@ namespace GameEntities
 	/// </summary>
 	public abstract class Unit : Dynamic
 	{
+        public bool airplane { get; set; }
 		[FieldSerialize]
 		Intellect intellect;
 		[FieldSerialize]

@@ -515,6 +515,8 @@ namespace GameCommon
 					PhysicsWorld.Instance.Joints.Count.ToString( "N0" );
 				PageControl.Controls[ "Motors" ].Text =
 					PhysicsWorld.Instance.Motors.Count.ToString( "N0" );
+            
+                    
 			}
 		}
 
@@ -674,6 +676,7 @@ namespace GameCommon
 						EntityTypes.Instance.Types.Count.ToString( "N0" );
 					PageControl.Controls[ "Entities" ].Text =
 						Entities.Instance.EntitiesCollection.Count.ToString( "N0" );
+                   
 				}
 				else
 				{

@@ -55,8 +55,8 @@ namespace GameEntities
             public float elevatorDamping = .03f;
             //Rudder Controls (Yaw)
             public float rudderMax = 1f;
-            public float rudderInc = .05f;
-            public float rudderDamping = .03f;
+            public float rudderInc = 1f;
+            public float rudderDamping = 0f;
             //Accel
             public float accelInc = .005f;
             public float accelMax = 10.0f;

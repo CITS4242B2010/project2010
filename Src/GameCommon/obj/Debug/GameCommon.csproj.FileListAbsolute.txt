@@ -4,3 +4,9 @@ C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.852\Game\Bin\GameCommon.xml
 C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.852\Game\Src\GameCommon\obj\Debug\ResolveAssemblyReference.cache
 C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.852\Game\Src\GameCommon\obj\Debug\GameCommon.dll
 C:\NeoAxis\NeoAxis Engine Non-Commercial SDK 0.852\Game\Src\GameCommon\obj\Debug\GameCommon.pdb
+H:\Project_Work\FlightGame\Bin\GameCommon.dll
+H:\Project_Work\FlightGame\Bin\GameCommon.pdb
+H:\Project_Work\FlightGame\Bin\GameCommon.xml
+H:\Project_Work\FlightGame\Src\GameCommon\obj\Debug\ResolveAssemblyReference.cache
+H:\Project_Work\FlightGame\Src\GameCommon\obj\Debug\GameCommon.dll
+H:\Project_Work\FlightGame\Src\GameCommon\obj\Debug\GameCommon.pdb

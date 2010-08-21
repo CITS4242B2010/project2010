@@ -35,7 +35,7 @@ namespace WindowsAppExample
 			UpdateVolume();
 
 			//load map
-			WindowsAppWorld.MapLoad( "Maps\\WindowsAppExample\\Map.map", true );
+			WindowsAppWorld.MapLoad( "Maps\\TurretDemo\\Map.map", true );
 
 			renderTargetUserControl1.AutomaticUpdateFPS = 60;
 			renderTargetUserControl1.Render += renderTargetUserControl1_Render;

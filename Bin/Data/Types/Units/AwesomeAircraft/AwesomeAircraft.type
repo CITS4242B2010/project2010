@@ -2,6 +2,7 @@ type AwesomeAircraft
 {
 	class = AwesomeAircraft
 	allowPlayerControl = True
+	lifeMax = 50
 	physicsModel = Types\Units\AwesomeAircraft\AwesomeAircraft.physics
 	allowEditorCreate = True
 	attachedObjects
@@ -9,6 +10,16 @@ type AwesomeAircraft
 		mesh
 		{
 			meshName = Types\Units\AwesomeAircraft\AwesomeAircraft.mesh
+			position = 0 0.1684506 0.3434859
+		}
+	}
+	dieObjects
+	{
+		mapObject
+		{
+			type = HelicopterDead
+			copyVelocitiesFromParent = True
+			attachToOwner = True
 		}
 	}
 }
