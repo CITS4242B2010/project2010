@@ -25,3 +25,12 @@ H:\Project_Work\FlightGame\Src\Game\obj\Debug\GenerateResource-ResGen.read.1.tlo
 H:\Project_Work\FlightGame\Src\Game\obj\Debug\GenerateResource-ResGen.write.1.tlog
 H:\Project_Work\FlightGame\Src\Game\obj\Debug\Game.exe
 H:\Project_Work\FlightGame\Src\Game\obj\Debug\Game.pdb
+D:\Fariborz\FlightGame\Bin\Game.exe
+D:\Fariborz\FlightGame\Bin\Game.pdb
+D:\Fariborz\FlightGame\Bin\Game.xml
+D:\Fariborz\FlightGame\Src\Game\obj\Debug\ResolveAssemblyReference.cache
+D:\Fariborz\FlightGame\Src\Game\obj\Debug\Game.Properties.Resources.resources
+D:\Fariborz\FlightGame\Src\Game\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Fariborz\FlightGame\Src\Game\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Fariborz\FlightGame\Src\Game\obj\Debug\Game.exe
+D:\Fariborz\FlightGame\Src\Game\obj\Debug\Game.pdb

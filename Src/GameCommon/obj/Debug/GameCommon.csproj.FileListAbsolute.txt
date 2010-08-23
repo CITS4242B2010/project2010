@@ -10,3 +10,9 @@ H:\Project_Work\FlightGame\Bin\GameCommon.xml
 H:\Project_Work\FlightGame\Src\GameCommon\obj\Debug\ResolveAssemblyReference.cache
 H:\Project_Work\FlightGame\Src\GameCommon\obj\Debug\GameCommon.dll
 H:\Project_Work\FlightGame\Src\GameCommon\obj\Debug\GameCommon.pdb
+D:\Fariborz\FlightGame\Bin\GameCommon.dll
+D:\Fariborz\FlightGame\Bin\GameCommon.pdb
+D:\Fariborz\FlightGame\Bin\GameCommon.xml
+D:\Fariborz\FlightGame\Src\GameCommon\obj\Debug\ResolveAssemblyReference.cache
+D:\Fariborz\FlightGame\Src\GameCommon\obj\Debug\GameCommon.dll
+D:\Fariborz\FlightGame\Src\GameCommon\obj\Debug\GameCommon.pdb

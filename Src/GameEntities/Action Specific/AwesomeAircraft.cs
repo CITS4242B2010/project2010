@@ -8,11 +8,41 @@ using Engine.MathEx;
 using Engine.MapSystem;
 using Engine.Utils;
 using GameCommon;
+using System.ComponentModel;
+using System.Drawing.Design;
+using Engine.SoundSystem;
 
 namespace GameEntities
 {
     public class AwesomeAircraftType : UnitType
     {
+        [FieldSerialize]
+        String soundOn;
+        [FieldSerialize]
+        String soundOff;
+        [Editor(typeof(EditorSoundUITypeEditor), typeof(UITypeEditor))]
+        public string SoundOn
+        {
+            get { return soundOn; }
+            set { soundOn = value; }
+        }
+
+        [Editor(typeof(EditorSoundUITypeEditor), typeof(UITypeEditor))]
+        public string SoundOff
+        {
+            get { return soundOff; }
+            set { soundOff = value; }
+        }
+        protected override void OnPreloadResources()
+        {
+            base.OnPreloadResources();
+
+            if (!string.IsNullOrEmpty(SoundOn))
+                SoundWorld.Instance.SoundCreate(SoundOn, SoundMode.Mode3D);
+            if (!string.IsNullOrEmpty(SoundOff))
+                SoundWorld.Instance.SoundCreate(SoundOff, SoundMode.Mode3D);
+        }
+
     }
 
     public class AwesomeAircraft : Unit
@@ -38,11 +68,16 @@ namespace GameEntities
         Vec3 initialPosition;
         Quat initialRotation;
 
+        //sound
+        bool motorOn;
+        bool firstTick = true;
+        VirtualChannel motorSoundChannel;
+       
 
         protected override void OnPostCreate(bool loaded)
         {
             base.OnPostCreate(loaded);
-
+            
             foreach (MapObjectAttachedObject attachedObject in AttachedObjects)
             {
                 MapObjectAttachedMesh attachedMeshObject = attachedObject as MapObjectAttachedMesh;
@@ -116,14 +151,45 @@ namespace GameEntities
 
                 flightModel.TickAndApplyForces(mainBody, TickDelta);
             }
-
+            TickMotorSound();
             AdjustBones();
 
         }
 
+        void TickMotorSound()
+        {
+            bool lastMotorOn = motorOn;
+            motorOn = Intellect != null && Intellect.IsActive();
 
+            //sound on, off
+            if (motorOn != lastMotorOn)
+            {
+                //if (!firstTick && Life != 0)
+                //{
+                if (motorOn)
+                {
+                    // SoundPlay3D(Type.SoundOn, .7f, true);
+                    Sound sound = SoundWorld.Instance.SoundCreate(Type.SoundOn,
+                        SoundMode.Mode3D | SoundMode.Loop);
+                    motorSoundChannel = SoundWorld.Instance.SoundPlay(
+                            sound, EngineApp.Instance.DefaultSoundChannelGroup, .3f, true);
+                    motorSoundChannel.Position = mainBody.Position;
+                    motorSoundChannel.Pause = false;
+                }
+                else
+                    SoundPlay3D(Type.SoundOff, .7f, true);
+                //}
+               
+            }
 
+            if (motorOn)
+            {
+                motorSoundChannel.Position = mainBody.Position;
+            }
 
+           
+        }
+      
         public virtual void Reset(Quat rotation)
         {
             SpawnPoint spawnPoint = SpawnPoint.GetDefaultSpawnPoint();

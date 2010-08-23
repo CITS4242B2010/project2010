@@ -22,3 +22,15 @@ H:\Project_Work\FlightGame\Src\ChatExample\obj\Debug\GenerateResource-ResGen.rea
 H:\Project_Work\FlightGame\Src\ChatExample\obj\Debug\GenerateResource-ResGen.write.1.tlog
 H:\Project_Work\FlightGame\Src\ChatExample\obj\Debug\ChatExample.exe
 H:\Project_Work\FlightGame\Src\ChatExample\obj\Debug\ChatExample.pdb
+D:\Fariborz\FlightGame\Bin\ChatExample.exe
+D:\Fariborz\FlightGame\Bin\ChatExample.pdb
+D:\Fariborz\FlightGame\Bin\ChatExample.xml
+D:\Fariborz\FlightGame\Src\ChatExample\obj\Debug\ResolveAssemblyReference.cache
+D:\Fariborz\FlightGame\Src\ChatExample\obj\Debug\ChatExample.ClientForm.resources
+D:\Fariborz\FlightGame\Src\ChatExample\obj\Debug\ChatExample.MainForm.resources
+D:\Fariborz\FlightGame\Src\ChatExample\obj\Debug\ChatExample.Properties.Resources.resources
+D:\Fariborz\FlightGame\Src\ChatExample\obj\Debug\ChatExample.ServerForm.resources
+D:\Fariborz\FlightGame\Src\ChatExample\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Fariborz\FlightGame\Src\ChatExample\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Fariborz\FlightGame\Src\ChatExample\obj\Debug\ChatExample.exe
+D:\Fariborz\FlightGame\Src\ChatExample\obj\Debug\ChatExample.pdb

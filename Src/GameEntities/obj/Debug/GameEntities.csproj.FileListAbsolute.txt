@@ -16,3 +16,9 @@ H:\Project_Work\FlightGame\Bin\GameEntities.xml
 H:\Project_Work\FlightGame\Src\GameEntities\obj\Debug\ResolveAssemblyReference.cache
 H:\Project_Work\FlightGame\Src\GameEntities\obj\Debug\GameEntities.dll
 H:\Project_Work\FlightGame\Src\GameEntities\obj\Debug\GameEntities.pdb
+D:\Fariborz\FlightGame\Bin\GameEntities.dll
+D:\Fariborz\FlightGame\Bin\GameEntities.pdb
+D:\Fariborz\FlightGame\Bin\GameEntities.xml
+D:\Fariborz\FlightGame\Src\GameEntities\obj\Debug\ResolveAssemblyReference.cache
+D:\Fariborz\FlightGame\Src\GameEntities\obj\Debug\GameEntities.dll
+D:\Fariborz\FlightGame\Src\GameEntities\obj\Debug\GameEntities.pdb

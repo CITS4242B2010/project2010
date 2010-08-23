@@ -1,10 +1,18 @@
 type AwesomeAircraft
 {
 	class = AwesomeAircraft
+	soundOn = Types\Units\AwesomeAircraft\Jet1.ogg
+	soundOff = Types\Units\Helicopter\Rotor.ogg
 	allowPlayerControl = True
 	lifeMax = 50
 	physicsModel = Types\Units\AwesomeAircraft\AwesomeAircraft.physics
 	allowEditorCreate = True
+	automaticInfluences
+	{
+		item
+		{
+		}
+	}
 	attachedObjects
 	{
 		mesh

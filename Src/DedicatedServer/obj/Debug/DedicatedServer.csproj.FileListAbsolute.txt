@@ -28,3 +28,13 @@ H:\Project_Work\FlightGame\Src\DedicatedServer\obj\Debug\GenerateResource-ResGen
 H:\Project_Work\FlightGame\Src\DedicatedServer\obj\Debug\GenerateResource-ResGen.write.1.tlog
 H:\Project_Work\FlightGame\Src\DedicatedServer\obj\Debug\DedicatedServer.exe
 H:\Project_Work\FlightGame\Src\DedicatedServer\obj\Debug\DedicatedServer.pdb
+D:\Fariborz\FlightGame\Bin\DedicatedServer.exe
+D:\Fariborz\FlightGame\Bin\DedicatedServer.pdb
+D:\Fariborz\FlightGame\Bin\DedicatedServer.xml
+D:\Fariborz\FlightGame\Src\DedicatedServer\obj\Debug\ResolveAssemblyReference.cache
+D:\Fariborz\FlightGame\Src\DedicatedServer\obj\Debug\DedicatedServer.MainForm.resources
+D:\Fariborz\FlightGame\Src\DedicatedServer\obj\Debug\DedicatedServer.Properties.Resources.resources
+D:\Fariborz\FlightGame\Src\DedicatedServer\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Fariborz\FlightGame\Src\DedicatedServer\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Fariborz\FlightGame\Src\DedicatedServer\obj\Debug\DedicatedServer.exe
+D:\Fariborz\FlightGame\Src\DedicatedServer\obj\Debug\DedicatedServer.pdb
