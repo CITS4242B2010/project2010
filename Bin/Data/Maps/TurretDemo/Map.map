@@ -4,8 +4,8 @@ classPrompt = GameMap
 gameType = TurretDemo
 gameMusic = Sounds\Music\Game.ogg
 ambientLight = 0.2 0.2 0.2
-editorCameraPosition = -140.703 -2.206908 11.69151
-editorCameraDirection = 4.341388 -0.6181428
+editorCameraPosition = -144.0795 -24.44713 2.683007
+editorCameraDirection = 3.087316 -0.2019193
 shadowColor = 0.6 0.6 0.6 0.6
 shadowCubicTextureSize = 1024
 logicSystemManager = 8
@@ -44,8 +44,8 @@ entity
 	uin = 5
 	classPrompt = SpawnPoint
 	defaultPoint = True
-	position = -191.8474 -21.36573 1.224252
-	rotation = 0 0 0.02619668 -0.9996569
+	position = -147.4406 -25.9232 1.575087
+	rotation = 0 0 -0.9911345 0.1328632
 	name = SpawnPoint_0
 }
 entity
@@ -694,19 +694,8 @@ entity
 }
 entity
 {
-	type = StaticMesh
-	uin = 76
-	classPrompt = StaticMesh
-	position = -195.4492 -21.08049 1.239285
-	rotation = 0 0 -0.9996569 -0.02619668
-	meshName = Models\CorridorExit\CorridorExit.mesh
-	allowDecals = All
-	castDynamicShadows = True
-}
-entity
-{
 	type = HeightmapTerrain
-	uin = 77
+	uin = 76
 	classPrompt = HeightmapTerrain
 	position = 0 0 0
 	horizontalSize = 1000
@@ -752,7 +741,7 @@ entity
 entity
 {
 	type = Fog
-	uin = 78
+	uin = 77
 	classPrompt = Fog
 	color = 0.9254902 0.8470588 1
 	expDensity = 0.002
@@ -760,7 +749,7 @@ entity
 entity
 {
 	type = Light
-	uin = 79
+	uin = 78
 	classPrompt = Light
 	lightType = Directional
 	diffuseColor = 1.784314 1.784314 1.392157
@@ -785,7 +774,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 80
+	uin = 79
 	classPrompt = StaticMesh
 	position = -97.4179 35.16257 7.987642
 	rotation = 0.1210641 0.1707999 0.7977631 -0.5654598
@@ -796,7 +785,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 81
+	uin = 80
 	classPrompt = StaticMesh
 	position = -56.98007 25.75332 7.987642
 	rotation = 0.07449102 0.1956533 0.6309558 -0.7470379
@@ -807,7 +796,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 82
+	uin = 81
 	classPrompt = StaticMesh
 	position = -6.488461 8.704138 7.987642
 	rotation = 0.1483793 -0.3040854 0.6127198 0.714206
@@ -818,7 +807,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 83
+	uin = 82
 	classPrompt = StaticMesh
 	position = 27.45713 -24.38238 18.95648
 	rotation = 0.02586149 0.103482 0.9911688 -0.07878542
@@ -829,7 +818,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 84
+	uin = 83
 	classPrompt = StaticMesh
 	position = 31.89543 -53.18126 11.3014
 	rotation = -0.02627443 0.1033779 0.8354272 -0.5391513
@@ -840,7 +829,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 85
+	uin = 84
 	classPrompt = StaticMesh
 	position = 82.70685 -113.1981 14.78613
 	rotation = -0.05006957 0.0941827 0.6835161 -0.7221
@@ -851,7 +840,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 86
+	uin = 85
 	classPrompt = StaticMesh
 	position = 84.49511 -145.0341 3.366297
 	rotation = -0.05006957 0.0941827 0.6835161 -0.7221
@@ -862,7 +851,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 87
+	uin = 86
 	classPrompt = StaticMesh
 	position = 62.51686 -72.84821 20.47994
 	rotation = 0.03013046 -0.3370111 0.3176017 0.8858019
@@ -873,7 +862,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 88
+	uin = 87
 	classPrompt = StaticMesh
 	position = 6.451622 -285.9346 -0.1995525
 	rotation = -0.05006957 0.0941827 0.6835161 -0.7221
@@ -884,7 +873,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 89
+	uin = 88
 	classPrompt = StaticMesh
 	position = -1.367637 -280.1993 18.12234
 	rotation = 0.07637009 0.07446443 0.8847579 0.4536807
@@ -895,7 +884,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 90
+	uin = 89
 	classPrompt = StaticMesh
 	position = -36.88835 -281.7465 11.55137
 	rotation = -0.103802 0.1287797 0.4547304 0.8751351
@@ -906,7 +895,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 91
+	uin = 90
 	classPrompt = StaticMesh
 	position = -110.2816 -248.4608 18.39064
 	rotation = -0.4141937 -0.2260991 -0.8412335 -0.2639116
@@ -917,7 +906,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 92
+	uin = 91
 	classPrompt = StaticMesh
 	position = -186.9091 -215.8994 16.9955
 	rotation = -0.1139101 -0.5893413 -0.4857318 0.6354261
@@ -928,7 +917,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 93
+	uin = 92
 	classPrompt = StaticMesh
 	position = -248.1082 -187.2003 16.9955
 	rotation = 0.02528191 -0.4712091 -0.6010162 0.6450602
@@ -939,7 +928,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 94
+	uin = 93
 	classPrompt = StaticMesh
 	position = -228.9747 -8.166405 7.987642
 	rotation = 0.1210641 0.1707999 0.7977631 -0.5654598
@@ -950,7 +939,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 95
+	uin = 94
 	classPrompt = StaticMesh
 	position = -243.8058 39.29119 7.987642
 	rotation = -0.004350588 -0.2093089 -0.3429615 0.9157228
@@ -961,7 +950,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 96
+	uin = 95
 	classPrompt = StaticMesh
 	position = 46.78614 -220.2619 6.250374
 	rotation = 0.02169835 0.1044343 0.9872206 -0.118399
@@ -972,7 +961,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 97
+	uin = 96
 	classPrompt = StaticMesh
 	position = 144.593 -426.3848 72.70432
 	rotation = 0.5773911 0.01893839 0.8010586 -0.156736
@@ -983,7 +972,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 98
+	uin = 97
 	classPrompt = StaticMesh
 	position = -8.744816 -496.4829 127.3359
 	rotation = -0.3080002 -0.4887484 -0.3192784 0.751214
@@ -994,7 +983,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 99
+	uin = 98
 	classPrompt = StaticMesh
 	position = -80.1714 -488.1109 42.67814
 	rotation = -0.1755983 -0.7222919 -0.4073918 0.530558
@@ -1005,7 +994,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 100
+	uin = 99
 	classPrompt = StaticMesh
 	position = -180.2543 -457.7173 -32.07171
 	rotation = -0.4118441 0.5114902 0.1648858 0.735918
@@ -1016,14 +1005,14 @@ entity
 entity
 {
 	type = BlueDaySky
-	uin = 101
+	uin = 100
 	classPrompt = CameraAttachedObject
 	name = BlueDaySky_0
 }
 entity
 {
 	type = StaticMesh
-	uin = 102
+	uin = 101
 	classPrompt = StaticMesh
 	position = -31.94028 -195.7287 2.228323
 	meshName = Maps\TurretDemo\Resources\Models\TurretDemoRockStone.mesh
@@ -1031,7 +1020,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 103
+	uin = 102
 	classPrompt = StaticMesh
 	position = -68.08025 -213.1756 0.9964848
 	rotation = -0.5830613 0.5052195 0.4808355 0.4166414
@@ -1043,7 +1032,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 104
+	uin = 103
 	classPrompt = StaticMesh
 	position = -85.22253 -220.6017 4.304112
 	rotation = -0.5830613 0.5052195 0.4808355 0.4166414
@@ -1055,7 +1044,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 105
+	uin = 104
 	classPrompt = StaticMesh
 	position = -73.59097 -225.7236 0.9964848
 	rotation = 0.7574637 -0.1464788 -0.6246606 -0.1207973
@@ -1067,7 +1056,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 106
+	uin = 105
 	classPrompt = StaticMesh
 	position = -177.5589 -30.91754 1.847511
 	rotation = 0 0 -0.0230988 0.9997332
@@ -1078,7 +1067,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 107
+	uin = 106
 	classPrompt = StaticMesh
 	position = -183.8327 -30.80281 1.847511
 	rotation = 0 0 -0.01788807 0.99984
@@ -1089,7 +1078,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 108
+	uin = 107
 	classPrompt = StaticMesh
 	position = -182.9693 -12.42684 1.847511
 	rotation = 0 0 -0.01788807 0.99984
@@ -1100,7 +1089,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 109
+	uin = 108
 	classPrompt = StaticMesh
 	position = -176.6955 -12.54157 1.847511
 	rotation = 0 0 -0.0230988 0.9997332
@@ -1111,7 +1100,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 110
+	uin = 109
 	classPrompt = StaticMesh
 	position = -171.0168 -12.71568 1.847511
 	rotation = 0 0 -0.0230988 0.9997332
@@ -1122,7 +1111,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 111
+	uin = 110
 	classPrompt = StaticMesh
 	position = -186.3109 -15.21051 1.847511
 	rotation = 0 0 -0.7279627 0.6856168
@@ -1133,7 +1122,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 112
+	uin = 111
 	classPrompt = StaticMesh
 	position = -187.129 -28.11906 1.847511
 	rotation = 0 0 -0.7279627 0.6856168
@@ -1144,7 +1133,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 113
+	uin = 112
 	classPrompt = StaticMesh
 	position = -167.987 -23.14509 1.847511
 	rotation = 0 0 -0.7279627 0.6856168
@@ -1155,7 +1144,7 @@ entity
 entity
 {
 	type = StaticMesh
-	uin = 114
+	uin = 113
 	classPrompt = StaticMesh
 	position = -167.7401 -16.53297 1.847511
 	rotation = 0 0 -0.7279627 0.6856168
@@ -1166,7 +1155,7 @@ entity
 entity
 {
 	type = DecorativeObjectManager
-	uin = 115
+	uin = 114
 	classPrompt = DecorativeObjectManager
 	visible = True
 	itemDataVersion = 2
@@ -1177,7 +1166,7 @@ entity
 entity
 {
 	type = WoodBox
-	uin = 116
+	uin = 115
 	classPrompt = Dynamic
 	position = -169.5845 -17.08349 1.694944
 	rotation = 0 0 -0.867325 -0.4977423
@@ -1186,7 +1175,7 @@ entity
 entity
 {
 	type = WoodBox
-	uin = 117
+	uin = 116
 	classPrompt = Dynamic
 	position = -169.4104 -17.97951 2.747343
 	rotation = 0 0 -0.00812307 -0.9999671
@@ -1195,7 +1184,7 @@ entity
 entity
 {
 	type = WoodBox
-	uin = 118
+	uin = 117
 	classPrompt = Dynamic
 	position = -183.8489 -28.95858 1.721416
 	rotation = 0 0 0.2921777 0.956364
@@ -1204,7 +1193,7 @@ entity
 entity
 {
 	type = Box
-	uin = 119
+	uin = 118
 	classPrompt = Dynamic
 	position = -184.9111 -28.5527 2.728238
 	rotation = 0 0 -0.7253879 0.6883403
@@ -1213,27 +1202,16 @@ entity
 entity
 {
 	type = AwesomeAircraft
-	uin = 120
+	uin = 119
 	classPrompt = AwesomeAircraft
 	intellectShouldDeleteAfterDetach = False
-	position = -154.6477 -21.56273 0.1082882
-	rotation = 0 0 -0.9764018 0.215962
-	scale = 11.33962 6.858971 9.9275
-	name = AwesomeAircraft_0
-}
-entity
-{
-	type = AwesomeAircraft
-	uin = 121
-	classPrompt = AwesomeAircraft
-	intellectShouldDeleteAfterDetach = False
-	position = -148.2123 -23.16454 0.5759111
-	rotation = 0 0 -0.1838295 0.9829581
+	position = -148.3475 -23.16454 0.5759111
+	rotation = 0 0 0.9987615 -0.04975262
 	name = AwesomeAircraft_1
 }
 entity
 {
 	type = BlueDaySky
-	uin = 122
+	uin = 120
 	classPrompt = CameraAttachedObject
 }

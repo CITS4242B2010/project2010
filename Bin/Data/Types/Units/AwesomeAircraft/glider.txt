@@ -19,15 +19,15 @@ begin handling
 thrustInc		1			#thrustMax = 100
 aileronMax		1.5
 aileronInc		.03
-aileronDamping          .02
+aileronDamping          .03 #.02
 elevatorMax		1
-elevatorInc		.05
-elevatorDamping		.03
+elevatorInc		.1 #.05
+elevatorDamping		.10 #.03 Makes the plane go up/down automatically
 rudderMax		2
 rudderInc		.05
 rudderDamping           .03
 accelInc                .05
-accelMax                30
+accelMax                20
 speedMax                50
 end handling
 
