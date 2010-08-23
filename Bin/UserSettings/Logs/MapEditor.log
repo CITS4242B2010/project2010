@@ -1,11 +1,11 @@
-Log started: 8/22/2010 9:18:13 PM
+Log started: 8/23/2010 10:39:40 AM
 Map Editor 0.852
 Info: Operating System: Microsoft Windows NT 5.1.2600 Service Pack 3 (32-bit)
-Info: Runtime Framework: Net 2.0.50727.3615
+Info: Runtime Framework: Net 2.0.50727.42
 Info: Engine SDK: Non-Commercial SDK
 Info: Engine 32-bit version
 Info: Physics system is initialized (Driver: ODE 0.11.1)
-Info: OGRE: Added resource location 'D:\Fariborz\FlightGame\Bin\Data' of type 'VirtualFileSystem' to resource group 'General' with recursive option
+Info: OGRE: Added resource location 'Y:\project2010\project2010\Bin\Data' of type 'VirtualFileSystem' to resource group 'General' with recursive option
 Info: OGRE: Loading library RenderSystem_Direct3D9.dll
 Info: OGRE: Installing plugin: D3D9 RenderSystem
 Info: OGRE: D3D9 : Direct3D9 Rendering Subsystem created.
@@ -14,27 +14,27 @@ Info: OGRE: D3D9: Driver Detection Ends
 Info: OGRE: Plugin successfully installed
 Info: OGRE: CPU Identifier & Features
 Info: OGRE: -------------------------
-Info: OGRE:  *   CPU ID: GenuineIntel: Intel(R) Pentium(R) D CPU 3.40GHz
+Info: OGRE:  *   CPU ID: AuthenticAMD: AMD Turion(tm) 64 Mobile Technology MT-32
 Info: OGRE:  *      SSE: yes
 Info: OGRE:  *     SSE2: yes
 Info: OGRE:  *     SSE3: yes
 Info: OGRE:  *      MMX: yes
 Info: OGRE:  *   MMXEXT: yes
-Info: OGRE:  *    3DNOW: no
-Info: OGRE:  * 3DNOWEXT: no
+Info: OGRE:  *    3DNOW: yes
+Info: OGRE:  * 3DNOWEXT: yes
 Info: OGRE:  *     CMOV: yes
 Info: OGRE:  *      TSC: yes
 Info: OGRE:  *      FPU: yes
 Info: OGRE:  *      PRO: yes
-Info: OGRE:  *       HT: yes
+Info: OGRE:  *       HT: no
 Info: OGRE: -------------------------
 Info: OGRE: D3D9 : Subsystem Initialising
-Info: OGRE: Driver name: vtdisp.dll
-Info: OGRE: Driver description: VIA/S3G UniChrome Pro IGP
+Info: OGRE: Driver name: nv4_disp.dll
+Info: OGRE: Driver description: NVIDIA GeForce FX 5600
 Info: OGRE: ***************************************
 Info: OGRE: *** D3D9 : Subsystem Initialised OK ***
 Info: OGRE: ***************************************
-Info: OGRE: D3D9RenderSystem::_createRenderWindow "MainWindow", 640x480 windowed  miscParams: colourDepth=32 externalWindowHandle=66014 
+Info: OGRE: D3D9RenderSystem::_createRenderWindow "MainWindow", 640x480 windowed  miscParams: colourDepth=32 externalWindowHandle=65670 
 Info: OGRE: D3D9 : Created D3D9 Rendering Window 'MainWindow' : 10x10, 32bpp
 Info: OGRE: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
 Info: OGRE: Registering ResourceManager for type Texture
@@ -42,56 +42,56 @@ Info: OGRE: Registering ResourceManager for type GpuProgram
 Info: OGRE: RenderSystem capabilities
 Info: OGRE: -------------------------
 Info: OGRE: RenderSystem Name: Direct3D9 Rendering Subsystem
-Info: OGRE: GPU Vendor: unknown
-Info: OGRE: Device Name: VIA/S3G UniChrome Pro IGP
-Info: OGRE: Driver Version: 6.14.10.226
+Info: OGRE: GPU Vendor: nvidia
+Info: OGRE: Device Name: NVIDIA GeForce FX 5600
+Info: OGRE: Driver Version: 6.15.11.7516
 Info: OGRE:  * Fixed function pipeline: yes
-Info: OGRE:  * Hardware generation of mipmaps: no
+Info: OGRE:  * Hardware generation of mipmaps: yes
 Info: OGRE:  * Texture blending: yes
-Info: OGRE:  * Anisotropic texture filtering: yes
+Info: OGRE:  * Anisotropic texture filtering: no
 Info: OGRE:  * Dot product texture operation: yes
 Info: OGRE:  * Cube mapping: yes
 Info: OGRE:  * Hardware stencil buffer: yes
 Info: OGRE:    - Stencil depth: 8
-Info: OGRE:    - Two sided stencil support: no
+Info: OGRE:    - Two sided stencil support: yes
 Info: OGRE:    - Wrap stencil values: yes
 Info: OGRE:  * Hardware vertex / index buffers: yes
 Info: OGRE:  * Vertex programs: yes
-Info: OGRE:  * Fragment programs: no
+Info: OGRE:  * Fragment programs: yes
 Info: OGRE:  * Geometry programs: no
-Info: OGRE:  * Supported Shader Profiles: hlsl vs_1_1 vs_2_0 vs_2_a vs_2_x vs_3_0
+Info: OGRE:  * Supported Shader Profiles: hlsl ps_1_1 ps_1_2 ps_1_3 ps_1_4 ps_2_0 vs_1_1 vs_2_0
 Info: OGRE:  * Texture Compression: yes
 Info: OGRE:    - DXT: yes
 Info: OGRE:    - VTC: no
 Info: OGRE:    - 3Dc: no
 Info: OGRE:  * Scissor Rectangle: yes
-Info: OGRE:  * Hardware Occlusion Query: no
+Info: OGRE:  * Hardware Occlusion Query: yes
 Info: OGRE:  * User clip planes: yes
 Info: OGRE:  * VET_UBYTE4 vertex element type: yes
 Info: OGRE:  * Infinite far plane projection: yes
 Info: OGRE:  * Hardware render-to-texture: yes
 Info: OGRE:  * Floating point textures: no
 Info: OGRE:  * Non-power-of-two textures: yes (limited)
-Info: OGRE:  * Volume textures: no
-Info: OGRE:  * Multiple Render Targets: 1
+Info: OGRE:  * Volume textures: yes
+Info: OGRE:  * Multiple Render Targets: 4
 Info: OGRE:    - With different bit depths: no
 Info: OGRE:  * Point Sprites: yes
 Info: OGRE:  * Extended point parameters: yes
-Info: OGRE:  * Max Point Size: 64
+Info: OGRE:  * Max Point Size: 60
 Info: OGRE:  * Vertex texture fetch: no
 Info: OGRE:  * Render to Vertex Buffer : no
 Info: OGRE:  * Alpha to coverage: no
 Info: OGRE:  * Fetch4: no
-Info: OGRE:  * Hardware Instancing: yes
+Info: OGRE:  * Hardware Instancing: no
 Info: OGRE:  * DirectX per stage constants: no
-Info: OGRE:  * Max texture size: 2048
+Info: OGRE:  * Max texture size: 4096
 Info: OGRE: ResourceBackgroundQueue - threading disabled
 Info: OGRE: Particle Renderer Type 'billboard' registered
-Info: Renderer: GPU description: VIA/S3G UniChrome Pro IGP
-Info: Renderer: GPU codename: Unknown
-Info: Renderer: Shader model 2.0: no
+Info: Renderer: GPU description: NVIDIA GeForce FX 5600
+Info: Renderer: GPU codename: GeForce_NV30
+Info: Renderer: Shader model 2.0: yes
 Info: Renderer: Shader model 3.0: no
-Info: 2D texture render target pixel formats: R5G6B5 A4R4G4B4 A1R5G5B5 A8R8G8B8 X8R8G8B8
+Info: 2D texture render target pixel formats: R5G6B5 A8R8G8B8 X8R8G8B8 Depth24
 Info: OGRE: Parsing scripts for resource group Autodetect
 Info: OGRE: Finished parsing scripts for resource group Autodetect
 Info: OGRE: Parsing scripts for resource group General
@@ -361,12 +361,6 @@ Info: Initializing high level material: Types\Weapons\SubmachineGun\SubmachineGu
 Info: Initializing high level material: Utils\ResourceEditorGrid\ResourceEditorGrid_1.highMaterial
 Info: Initializing high level material: Utils\ResourceEditorGrid\ResourceEditorGrid_2.highMaterial
 Info: Sound system is initialized (Driver: DirectSound8)
-Info: OGRE: WARNING: material Compositor/HDR/FinalToneMapping has no supportable Techniques and will be blank. Explanation: 
-Pass 0: Fragment program Compositor/HDR/FinalToneMapping cannot be used - not supported.
-
-Info: OGRE: WARNING: material Compositor/HDR/FinalToneMapping has no supportable Techniques and will be blank. Explanation: 
-Pass 0: Fragment program Compositor/HDR/FinalToneMapping cannot be used - not supported.
-
 Info: OGRE: Mesh: Loading Types\Weapons\SubmachineGun\SubmachineGun.mesh.
 Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Weapons\SubmachineGun\SubmachineGun.dds' with 2147483647 mip map levels
 Info: OGRE: Mesh: Loading Types\Base\InvisiblePoint.mesh.
@@ -374,21 +368,28 @@ Info: OGRE: Mesh: Loading Types\Dynamic\Door\Door.mesh.
 Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Dynamic\Door\Door.dds' with 2147483647 mip map levels
 Info: OGRE: Mesh: Loading Types\Dynamic\ExplosionBarrel\ExplosionBarrel.mesh.
 Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Dynamic\ExplosionBarrel\ExplosionBarrelDiffuse.dds' with 2147483647 mip map levels
+Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Dynamic\ExplosionBarrel\ExplosionBarrelNormal.dds' with 2147483647 mip map levels
+Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Dynamic\ExplosionBarrel\ExplosionBarrelSpecular.dds' with 2147483647 mip map levels
 Info: OGRE: Mesh: Loading Types\Dynamic\Box\Box.mesh.
 Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Dynamic\Box\BoxDiffuse.dds' with 2147483647 mip map levels
 Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Dynamic\Box\BoxEmission.dds' with 2147483647 mip map levels
+Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Dynamic\Box\BoxNormal.dds' with 2147483647 mip map levels
+Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Dynamic\Box\BoxSpecular.dds' with 2147483647 mip map levels
 Info: OGRE: Mesh: Loading Models\DefaultBox\DefaultBox.mesh.
-Info: OGRE: Texture: Effects\DefaultFlare\DefaultFlare.jpg: Loading 1 faces(PF_R8G8B8,256x256x1) with 8 generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
+Info: OGRE: Texture: Effects\DefaultFlare\DefaultFlare.jpg: Loading 1 faces(PF_R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
 Info: OGRE: Mesh: Loading Types\Units\Turret\Base.mesh.
 Info: OGRE: Mesh: Loading Types\Units\Turret\Turret.mesh.
 Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Units\Turret\Turret.dds' with 2147483647 mip map levels
+Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Units\Turret\Turret_Normals.dds' with 2147483647 mip map levels
+Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Units\Turret\Turret_Specular.dds' with 2147483647 mip map levels
 Info: OGRE: Mesh: Loading Types\Units\Turret\TurretGun\TurretGun.mesh.
 Info: OGRE: Mesh: Loading Types\Dynamic\Placard\PlacardHolders.mesh.
 Info: OGRE: Mesh: Loading Types\Dynamic\Placard\Placard.mesh.
 Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Models\Rooms\CellingDiffuse.dds' with 2147483647 mip map levels
 Info: OGRE: Mesh: Loading Types\Dynamic\Ball\Ball.mesh.
 Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Dynamic\Ball\Ball.dds' with 2147483647 mip map levels
-Info: OGRE: Texture: Types\Dynamic\FlareTest\FlareTest.jpg: Loading 1 faces(PF_R8G8B8,32x32x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,32x32x1.
+Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Maps\RenderDemo\Textures\FloorNormals.dds' with 2147483647 mip map levels
+Info: OGRE: Texture: Types\Dynamic\FlareTest\FlareTest.jpg: Loading 1 faces(PF_R8G8B8,32x32x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,32x32x1.
 Info: OGRE: Mesh: Loading Types\StaticObjects\StopSign\StopSign.mesh.
 Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\StaticObjects\StopSign\StopSign.dds' with 2147483647 mip map levels
 Info: OGRE: Mesh: Loading Types\Dynamic\WoodBox\WoodBox.mesh.
@@ -585,7 +586,7 @@ Info: Initializing high level material: Types\Weapons\SubmachineGun\SubmachineGu
 Info: Initializing high level material: Types\Weapons\SubmachineGun\SubmachineGunFire.highMaterial
 Info: Initializing high level material: Utils\ResourceEditorGrid\ResourceEditorGrid_1.highMaterial
 Info: Initializing high level material: Utils\ResourceEditorGrid\ResourceEditorGrid_2.highMaterial
-Info: OGRE: Texture: Types\Base\Light\LightFlare.jpg: Loading 1 faces(PF_R8G8B8,256x256x1) with 8 generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
+Info: OGRE: Texture: Types\Base\Light\LightFlare.jpg: Loading 1 faces(PF_R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
 Info: OGRE: Mesh: Loading Maps\TurretDemo\Resources\Models\TurretDemoRock.mesh.
 Info: OGRE: Mesh: Loading Maps\TurretDemo\Resources\Models\TurretDemoRockStone.mesh.
 Info: OGRE: Mesh: Loading Models\SandBags\SandBags.mesh.
@@ -614,15 +615,8 @@ Info: OGRE: D3D9 : ***** Texture dimensions : 128x512
 Info: OGRE: Texture: Types\Units\AwesomeAircraft\WBK.JPG: Loading 1 faces(PF_R8G8B8,107x267x1) with 9 generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x512x1.
 Info: OGRE: Mesh: Loading Plane.mesh.
 Info: OGRE: Mesh: Loading Types/Units/AwesomeAircraft/AwesomeAircraftWheel.mesh.
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Dynamic\ExplosionBarrel\ExplosionBarrelSpecular.dds' with 2147483647 mip map levels
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Dynamic\ExplosionBarrel\ExplosionBarrelNormal.dds' with 2147483647 mip map levels
-Info: OGRE: Texture: Effects/FireParticle/fire.png: Loading 1 faces(PF_R8G8B8,128x128x1) with 7 generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
-Info: OGRE: Texture: Effects/ExplosionParticle/Fire.png: Loading 1 faces(PF_R8G8B8,64x64x1) with 6 generated mipmaps from Image. Internal format is PF_X8R8G8B8,64x64x1.
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Dynamic\Box\BoxSpecular.dds' with 2147483647 mip map levels
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Dynamic\Box\BoxNormal.dds' with 2147483647 mip map levels
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Units\Turret\Turret_Specular.dds' with 2147483647 mip map levels
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Units\Turret\Turret_Normals.dds' with 2147483647 mip map levels
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Maps\RenderDemo\Textures\FloorNormals.dds' with 2147483647 mip map levels
+Info: OGRE: Texture: Effects/FireParticle/fire.png: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+Info: OGRE: Texture: Effects/ExplosionParticle/Fire.png: Loading 1 faces(PF_R8G8B8,64x64x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,64x64x1.
 Info: OGRE: Mesh: Loading Types\Dynamic\WoodBox\WoodBoxPiece1\WoodBoxPiece1.mesh.
 Info: OGRE: Mesh: Loading Types\Dynamic\WoodBox\WoodBoxChip1\WoodBoxChip1.mesh.
 Info: OGRE: Mesh: Loading Types\Dynamic\WoodBox\WoodBoxChip2\WoodBoxChip2.mesh.
@@ -633,7 +627,7 @@ Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Models\Rooms\PassageWall.dd
 Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Models\Rooms\ConcreteWall.dds' with 2147483647 mip map levels
 Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Models\Rooms\CellsDiffuse.dds' with 2147483647 mip map levels
 Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Models\Rooms\CellsSpecular.dds' with 2147483647 mip map levels
-Info: OGRE: Texture: Models\Rooms\CellsNormals.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 9 generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+Info: OGRE: Texture: Models\Rooms\CellsNormals.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
 Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Maps\TurretDemo\Resources\Textures\hnpsand52.dds' with 2147483647 mip map levels
 Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Maps\TurretDemo\Resources\Textures\hnpsand52_Normal.dds' with 2147483647 mip map levels
 Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Maps\TurretDemo\Resources\Textures\hnprock13.dds' with 2147483647 mip map levels
@@ -651,69 +645,13 @@ Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Models\SandBags\SandBags_No
 Info: OGRE: Mesh: Loading Types\Units\Helicopter\Main.mesh.
 Info: OGRE: Mesh: Loading Types\Units\Helicopter\MainPropeller.mesh.
 Info: OGRE: Mesh: Loading Types\Units\Helicopter\BackPropeller.mesh.
-Info: OGRE: Texture: Effects\SmokeParticle\SmokeParticle.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with 7 generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
-Info: OGRE: Texture: Types\Bullets\ShotgunBullet\ShotgunBulletHit.tga: Loading 1 faces(PF_R8G8B8,64x64x1) with 6 generated mipmaps from Image. Internal format is PF_X8R8G8B8,64x64x1.
+Info: OGRE: Texture: Effects\SmokeParticle\SmokeParticle.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+Info: OGRE: Texture: Types\Bullets\ShotgunBullet\ShotgunBulletHit.tga: Loading 1 faces(PF_R8G8B8,64x64x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,64x64x1.
 Info: OGRE: !!! Direct3D Device Lost!
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks30
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks30
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks26
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks26
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks22
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks22
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks18
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks18
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks41
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks41
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks37
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks37
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks33
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks33
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks12
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks12
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks8
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks8
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks4
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks4
+Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks2
+Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks2
 Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks0
 Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks0
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks31
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks31
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks29
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks29
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks27
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks27
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks25
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks25
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks23
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks23
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks21
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks21
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks19
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks19
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks17
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks17
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks44
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks44
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks42
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks42
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks40
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks40
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks38
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks38
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks36
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks36
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks34
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks34
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks32
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks32
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks15
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks15
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks13
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks13
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks11
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks11
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks9
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks9
 Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks7
 Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks7
 Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks5
@@ -722,93 +660,21 @@ Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks
 Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks3
 Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks1
 Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks1
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks28
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks28
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks24
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks24
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks20
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks20
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks16
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks16
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks43
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks43
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks39
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks39
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks35
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks35
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks14
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks14
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks10
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks10
+Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks8
+Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks8
 Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks6
 Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks6
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks2
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks2
+Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks4
+Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks4
 Info: OGRE: D3D9TextureManager released:
-Info: OGRE: 45 unmanaged textures
+Info: OGRE: 9 unmanaged textures
 Info: OGRE: D3D9HardwareBufferManager released:
 Info: OGRE: 0 unmanaged vertex buffers
 Info: OGRE: 0 unmanaged index buffers
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks30
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks30
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks26
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks26
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks22
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks22
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks18
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks18
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks41
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks41
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks37
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks37
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks33
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks33
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks12
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks12
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks8
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks8
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks4
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks4
+Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks2
+Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks2
 Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks0
 Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks0
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks31
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks31
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks29
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks29
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks27
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks27
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks25
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks25
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks23
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks23
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks21
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks21
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks19
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks19
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks17
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks17
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks44
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks44
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks42
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks42
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks40
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks40
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks38
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks38
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks36
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks36
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks34
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks34
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks32
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks32
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks15
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks15
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks13
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks13
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks11
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks11
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks9
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks9
 Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks7
 Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks7
 Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks5
@@ -817,94 +683,22 @@ Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks
 Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks3
 Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks1
 Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks1
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks28
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks28
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks24
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks24
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks20
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks20
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks16
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks16
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks43
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks43
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks39
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks39
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks35
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks35
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks14
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks14
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks10
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks10
+Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks8
+Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks8
 Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks6
 Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks6
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks2
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks2
+Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks4
+Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks4
 Info: OGRE: D3D9TextureManager released:
-Info: OGRE: 45 unmanaged textures
+Info: OGRE: 9 unmanaged textures
 Info: OGRE: D3D9HardwareBufferManager released:
 Info: OGRE: 0 unmanaged vertex buffers
 Info: OGRE: 0 unmanaged index buffers
-Info: OGRE: Reset device ok w:784 h:616
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks30
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks30
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks26
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks26
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks22
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks22
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks18
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks18
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks41
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks41
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks37
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks37
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks33
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks33
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks12
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks12
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks8
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks8
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks4
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks4
+Info: OGRE: Reset device ok w:784 h:601
+Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks2
+Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks2
 Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks0
 Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks0
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks31
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks31
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks29
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks29
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks27
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks27
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks25
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks25
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks23
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks23
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks21
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks21
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks19
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks19
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks17
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks17
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks44
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks44
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks42
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks42
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks40
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks40
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks38
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks38
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks36
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks36
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks34
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks34
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks32
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks32
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks15
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks15
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks13
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks13
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks11
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks11
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks9
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks9
 Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks7
 Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks7
 Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks5
@@ -913,30 +707,14 @@ Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMask
 Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks3
 Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks1
 Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks1
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks28
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks28
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks24
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks24
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks20
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks20
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks16
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks16
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks43
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks43
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks39
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks39
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks35
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks35
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks14
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks14
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks10
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks10
+Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks8
+Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks8
 Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks6
 Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks6
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks2
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks2
+Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks4
+Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks4
 Info: OGRE: D3D9TextureManager recreated:
-Info: OGRE: 45 unmanaged textures
+Info: OGRE: 9 unmanaged textures
 Info: OGRE: D3D9HardwareBufferManager recreated:
 Info: OGRE: 0 unmanaged vertex buffers
 Info: OGRE: 0 unmanaged index buffers
@@ -1132,555 +910,5 @@ Info: Initializing high level material: Types\Weapons\SubmachineGun\SubmachineGu
 Info: Initializing high level material: Types\Weapons\SubmachineGun\SubmachineGunFire.highMaterial
 Info: Initializing high level material: Utils\ResourceEditorGrid\ResourceEditorGrid_1.highMaterial
 Info: Initializing high level material: Utils\ResourceEditorGrid\ResourceEditorGrid_2.highMaterial
-Info: OGRE: Texture: spot_shadow_fade.png: Loading 1 faces(PF_R8G8B8,128x128x1) with 7 generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
-Info: OGRE: Texture: Materials\Common\White.jpg: Loading 1 faces(PF_R8G8B8,32x32x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,32x32x1.
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Sky\BlueDaySky\Sky.dds' with 11 mip map levels
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Sky\BlueDaySky\Clouds.dds' with 11 mip map levels
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Maps\TurretDemo\Resources\Textures\hnpsand52.dds' with 10 mip map levels
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Maps\TurretDemo\Resources\Textures\hnprock13.dds' with 10 mip map levels
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Maps\TurretDemo\Resources\Textures\Rock2_Diffuse.dds' with 10 mip map levels
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Models\SandBags\SandBags.dds' with 9 mip map levels
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Models\Rooms\PassageWall.dds' with 9 mip map levels
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Models\Rooms\ConcreteWall.dds' with 10 mip map levels
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Models\Rooms\CellsDiffuse.dds' with 9 mip map levels
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Models\Rooms\CellingDiffuse.dds' with 9 mip map levels
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Maps\TurretDemo\Resources\Textures\TurretDemoRock.dds' with 10 mip map levels
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Dynamic\ExplosionBarrel\ExplosionBarrelDiffuse.dds' with 9 mip map levels
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Dynamic\Door\Door.dds' with 9 mip map levels
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\StaticObjects\StopSign\StopSign.dds' with 9 mip map levels
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Weapons\SubmachineGun\SubmachineGun.dds' with 9 mip map levels
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Units\Turret\Turret.dds' with 10 mip map levels
-Info: OGRE: D3D9 : ***** Dimensions altered by the render system
-Info: OGRE: D3D9 : ***** Source image dimensions : 107x267
-Info: OGRE: D3D9 : ***** Texture dimensions : 128x512
-Info: OGRE: Texture: Types\Units\AwesomeAircraft\WBK.JPG: Loading 1 faces(PF_R8G8B8,107x267x1) with 9 generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x512x1.
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Dynamic\Box\BoxDiffuse.dds' with 9 mip map levels
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types/Dynamic/WoodBox/WoodBox.dds' with 9 mip map levels
-Info: OGRE: D3D9 : Loading 2D Texture, image name : 'Types\Dynamic\Box\BoxEmission.dds' with 9 mip map levels
-Info: OGRE: Texture: Effects\DefaultFlare\DefaultFlare.jpg: Loading 1 faces(PF_R8G8B8,256x256x1) with 8 generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
-Info: OGRE: Texture: Types\Dynamic\FlareTest\FlareTest.jpg: Loading 1 faces(PF_R8G8B8,32x32x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,32x32x1.
-Info: OGRE: Texture: Materials\Common\White.jpg: Loading 1 faces(PF_R8G8B8,32x32x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,32x32x1.
-Info: OGRE: !!! Direct3D Device Lost!
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks30
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks30
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks26
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks26
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks22
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks22
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks18
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks18
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks41
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks41
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks37
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks37
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks33
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks33
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks12
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks12
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks8
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks8
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks4
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks4
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks0
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks0
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks31
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks31
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks29
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks29
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks27
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks27
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks25
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks25
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks23
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks23
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks21
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks21
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks19
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks19
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks17
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks17
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks44
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks44
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks42
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks42
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks40
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks40
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks38
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks38
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks36
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks36
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks34
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks34
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks32
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks32
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks15
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks15
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks13
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks13
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks11
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks11
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks9
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks9
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks7
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks7
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks5
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks5
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks3
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks3
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks1
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks1
-Info: OGRE: Releasing D3D9 default pool texture: Shadow2D0
-Info: OGRE: Released D3D9 default pool texture: Shadow2D0
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks28
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks28
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks24
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks24
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks20
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks20
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks16
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks16
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks43
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks43
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks39
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks39
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks35
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks35
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks14
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks14
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks10
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks10
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks6
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks6
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks2
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks2
-Info: OGRE: D3D9TextureManager released:
-Info: OGRE: 46 unmanaged textures
-Info: OGRE: D3D9HardwareBufferManager released:
-Info: OGRE: 28 unmanaged vertex buffers
-Info: OGRE: 0 unmanaged index buffers
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks30
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks30
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks26
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks26
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks22
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks22
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks18
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks18
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks41
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks41
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks37
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks37
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks33
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks33
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks12
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks12
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks8
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks8
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks4
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks4
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks0
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks0
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks31
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks31
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks29
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks29
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks27
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks27
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks25
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks25
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks23
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks23
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks21
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks21
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks19
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks19
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks17
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks17
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks44
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks44
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks42
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks42
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks40
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks40
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks38
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks38
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks36
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks36
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks34
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks34
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks32
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks32
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks15
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks15
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks13
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks13
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks11
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks11
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks9
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks9
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks7
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks7
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks5
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks5
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks3
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks3
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks1
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks1
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks28
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks28
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks24
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks24
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks20
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks20
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks16
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks16
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks43
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks43
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks39
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks39
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks35
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks35
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks14
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks14
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks10
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks10
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks6
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks6
-Info: OGRE: Releasing D3D9 default pool texture: _GeneratedHeightmapTerrainMasks2
-Info: OGRE: Released D3D9 default pool texture: _GeneratedHeightmapTerrainMasks2
-Info: OGRE: D3D9TextureManager released:
-Info: OGRE: 45 unmanaged textures
-Info: OGRE: D3D9HardwareBufferManager released:
-Info: OGRE: 22 unmanaged vertex buffers
-Info: OGRE: 0 unmanaged index buffers
-Info: OGRE: Reset device ok w:784 h:616
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks30
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks30
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks26
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks26
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks22
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks22
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks18
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks18
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks41
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks41
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks37
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks37
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks33
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks33
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks12
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks12
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks8
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks8
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks4
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks4
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks0
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks0
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks31
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks31
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks29
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks29
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks27
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks27
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks25
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks25
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks23
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks23
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks21
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks21
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks19
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks19
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks17
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks17
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks44
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks44
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks42
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks42
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks40
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks40
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks38
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks38
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks36
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks36
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks34
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks34
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks32
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks32
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks15
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks15
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks13
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks13
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks11
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks11
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks9
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks9
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks7
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks7
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks5
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks5
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks3
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks3
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks1
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks1
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks28
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks28
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks24
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks24
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks20
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks20
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks16
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks16
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks43
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks43
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks39
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks39
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks35
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks35
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks14
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks14
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks10
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks10
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks6
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks6
-Info: OGRE: Recreating D3D9 default pool texture: _GeneratedHeightmapTerrainMasks2
-Info: OGRE: Recreated D3D9 default pool texture: _GeneratedHeightmapTerrainMasks2
-Info: OGRE: D3D9TextureManager recreated:
-Info: OGRE: 45 unmanaged textures
-Info: OGRE: D3D9HardwareBufferManager recreated:
-Info: OGRE: 22 unmanaged vertex buffers
-Info: OGRE: 0 unmanaged index buffers
-Info: OGRE: !!! Direct3D Device successfully restored.
-Info: Initializing high level material: _Tests\ParticleSystem\TestPointParticle.highMaterial
-Info: Initializing high level material: Effects\DefaultFlare\DefaultFlare.highMaterial
-Info: Initializing high level material: Effects\ExplosionParticle\ExplosionParticle.highMaterial
-Info: Initializing high level material: Effects\FireParticle\FireParticle.highMaterial
-Info: Initializing high level material: Effects\ItemParticle\ItemParticle.highMaterial
-Info: Initializing high level material: Effects\SmokeParticle\SmokeParticle.highMaterial
-Info: Initializing high level material: JigsawPuzzleGame\JigsawPuzzleImage.highMaterial
-Info: Initializing high level material: JigsawPuzzleGame\JigsawPuzzleImageBackground.highMaterial
-Info: Initializing high level material: Maps\PortalSystemDemo\StaticGeometry\Garage\FpsDemoGarage_Celling.highMaterial
-Info: Initializing high level material: Maps\PortalSystemDemo\StaticGeometry\Garage\FpsDemoGarage_Floor.highMaterial
-Info: Initializing high level material: Maps\PortalSystemDemo\StaticGeometry\Garage\FpsDemoGarage_OuterWall.highMaterial
-Info: Initializing high level material: Maps\PortalSystemDemo\StaticGeometry\Garage\FpsDemoGarage_Roof.highMaterial
-Info: Initializing high level material: Maps\PortalSystemDemo\StaticGeometry\Garage\FpsDemoGarage_Wall.highMaterial
-Info: Initializing high level material: Maps\PortalSystemDemo\StaticGeometry\House\FpsDemoHouse_BrickWall.highMaterial
-Info: Initializing high level material: Maps\PortalSystemDemo\StaticGeometry\House\FpsDemoHouse_Celling.highMaterial
-Info: Initializing high level material: Maps\PortalSystemDemo\StaticGeometry\House\FpsDemoHouse_Floor.highMaterial
-Info: Initializing high level material: Maps\PortalSystemDemo\StaticGeometry\House\FpsDemoHouse_LargeBricks.highMaterial
-Info: Initializing high level material: Maps\PortalSystemDemo\StaticGeometry\House\FpsDemoHouse_WallMetal.highMaterial
-Info: Initializing high level material: Maps\PortalSystemDemo\StaticGeometry\House\FpsDemoHouse_WallPainted.highMaterial
-Info: Initializing high level material: Maps\RenderDemo\Materials\RenderDemoCelling.highMaterial
-Info: Initializing high level material: Maps\RenderDemo\Materials\RenderDemoCorridorFloor.highMaterial
-Info: Initializing high level material: Maps\RenderDemo\Materials\RenderDemoDoor.highMaterial
-Info: Initializing high level material: Maps\RenderDemo\Materials\RenderDemoLamp.highMaterial
-Info: Initializing high level material: Maps\RenderDemo\Materials\RenderDemoRoomFloor.highMaterial
-Info: Initializing high level material: Maps\RenderDemo\Materials\RenderDemoTrims.highMaterial
-Info: Initializing high level material: Maps\RenderDemo\Materials\RenderDemoWall.highMaterial
-Info: Initializing high level material: Maps\RTSDemo\Models\RTSConcreteBlock\RTSConcreteBlock.highMaterial
-Info: Initializing high level material: Maps\TankDemo\Resources\Meshes\FakeTrees\TankDemoFakeTrees.highMaterial
-Info: Initializing high level material: Maps\TankDemo\Resources\Meshes\Stone\TankDemoStone.highMaterial
-Info: Initializing high level material: Maps\TankDemo\Resources\Meshes\Trees\TankDemoTree_Bark.highMaterial
-Info: Initializing high level material: Maps\TankDemo\Resources\Meshes\Trees\TankDemoTree_Leafs.highMaterial
-Info: Initializing high level material: Maps\TPSArcadeDemo\Resources\Models\TPSDemoRock.highMaterial
-Info: Initializing high level material: Maps\TPSArcadeDemo\Resources\Models\TPSDemoRockStone.highMaterial
-Info: Initializing high level material: Maps\TurretDemo\Resources\Models\TurretDemoRock.highMaterial
-Info: Initializing high level material: Maps\TurretDemo\Resources\Models\TurretDemoRockStone.highMaterial
-Info: Initializing high level material: Maps\TurretDemo\Resources\Models\TurretDemoRockStone2.highMaterial
-Info: Initializing high level material: Materials\Simple\Black.highMaterial
-Info: Initializing high level material: Materials\Simple\Blue.highMaterial
-Info: Initializing high level material: Materials\Simple\DarkBlue.highMaterial
-Info: Initializing high level material: Materials\Simple\DarkGray.highMaterial
-Info: Initializing high level material: Materials\Simple\DarkGreen.highMaterial
-Info: Initializing high level material: Materials\Simple\DarkRed.highMaterial
-Info: Initializing high level material: Materials\Simple\DarkYellow.highMaterial
-Info: Initializing high level material: Materials\Simple\Gray.highMaterial
-Info: Initializing high level material: Materials\Simple\Green.highMaterial
-Info: Initializing high level material: Materials\Simple\Red.highMaterial
-Info: Initializing high level material: Materials\Simple\White.highMaterial
-Info: Initializing high level material: Materials\Simple\Yellow.highMaterial
-Info: Initializing high level material: Models\Beam\Beam.highMaterial
-Info: Initializing high level material: Models\RockBig\RockBig.highMaterial
-Info: Initializing high level material: Models\Rooms\Rooms_Celling.highMaterial
-Info: Initializing high level material: Models\Rooms\Rooms_Cells.highMaterial
-Info: Initializing high level material: Models\Rooms\Rooms_ConcreteWall.highMaterial
-Info: Initializing high level material: Models\Rooms\Rooms_FloorHall.highMaterial
-Info: Initializing high level material: Models\Rooms\Rooms_PassageWall.highMaterial
-Info: Initializing high level material: Models\SandBags\SandBags.highMaterial
-Info: Initializing high level material: Types\Base\Light\LightFlare.highMaterial
-Info: Initializing high level material: Types\Bullets\ShotgunBullet\ShotgunBulletHitParticle.highMaterial
-Info: Initializing high level material: Types\Bullets\ShotgunBullet\ShotgunBulletRibbonTrail.highMaterial
-Info: Initializing high level material: Types\Bullets\SubmachineGunBullet\SubmachineGunBulletHit.highMaterial
-Info: Initializing high level material: Types\Decals\DefaultBulletDecal\DefaultBulletDecal.highMaterial
-Info: Initializing high level material: Types\Decals\DefaultExplosionDecal\DefaultExplosionDecal.highMaterial
-Info: Initializing high level material: Types\Decals\ZombieBulletDecal\ZombieBulletDecal.highMaterial
-Info: Initializing high level material: Types\DecorativeObjects\DecorativeStones\DecorativeStones.highMaterial
-Info: Initializing high level material: Types\DecorativeObjects\Ear\Ear.highMaterial
-Info: Initializing high level material: Types\DecorativeObjects\FlowerWhite\FlowerWhite.highMaterial
-Info: Initializing high level material: Types\DecorativeObjects\FlowerYellow\FlowerYellow.highMaterial
-Info: Initializing high level material: Types\DecorativeObjects\GrassBrown\GrassBrown.highMaterial
-Info: Initializing high level material: Types\DecorativeObjects\GrassGreen\GrassGreen.highMaterial
-Info: Initializing high level material: Types\Dynamic\Ball\Ball.highMaterial
-Info: Initializing high level material: Types\Dynamic\BooleanSwitch\BooleanSwitch.highMaterial
-Info: Initializing high level material: Types\Dynamic\BooleanSwitch\BooleanSwitchOff.highMaterial
-Info: Initializing high level material: Types\Dynamic\BooleanSwitch\BooleanSwitchOn.highMaterial
-Info: Initializing high level material: Types\Dynamic\Box\Box.highMaterial
-Info: Initializing high level material: Types\Dynamic\CubemapReflectedBall\CubemapReflectedBall.highMaterial
-Info: Initializing high level material: Types\Dynamic\DestructibleHouse\DestructibleHouse.highMaterial
-Info: Initializing high level material: Types\Dynamic\DestructibleHouse\DestructibleHouseWinDoor.highMaterial
-Info: Initializing high level material: Types\Dynamic\Door\Door.highMaterial
-Info: Initializing high level material: Types\Dynamic\ExampleMagicBall\ExampleMagicBallBlinkMaterial.highMaterial
-Info: Initializing high level material: Types\Dynamic\ExplosionBarrel\ExplosionBarrel.highMaterial
-Info: Initializing high level material: Types\Dynamic\Fan\Fan.highMaterial
-Info: Initializing high level material: Types\Dynamic\Fan\FanParticle\FanParticle.highMaterial
-Info: Initializing high level material: Types\Dynamic\Firework\FireworkBullet\FireworkBulletRibbonTrail.highMaterial
-Info: Initializing high level material: Types\Dynamic\FlareTest\FlareTest.highMaterial
-Info: Initializing high level material: Types\Dynamic\GasFlamePipe\GasFlamePipeParticle\GasFlamePipeParticle.highMaterial
-Info: Initializing high level material: Types\Dynamic\HangingCable\HangingCable.highMaterial
-Info: Initializing high level material: Types\Dynamic\HangingLamp\HangingLampBase.highMaterial
-Info: Initializing high level material: Types\Dynamic\HangingLamp\HangingLampLamps.highMaterial
-Info: Initializing high level material: Types\Dynamic\LightBall\LightBall.highMaterial
-Info: Initializing high level material: Types\Dynamic\Pipe\PipeLeak\PipeLeakFlameParticle\PipeLeakFlameParticle.highMaterial
-Info: Initializing high level material: Types\Dynamic\Pipe\PipeLeak\PipeLeakSteamParticle\PipeLeakSteamParticle.highMaterial
-Info: Initializing high level material: Types\Dynamic\Pipe\PipeSwitch\PipeSwitch.highMaterial
-Info: Initializing high level material: Types\Dynamic\Placard\Placard.highMaterial
-Info: Initializing high level material: Types\Dynamic\Placard\Placard_Holders.highMaterial
-Info: Initializing high level material: Types\Dynamic\Teleporter\Teleporter.highMaterial
-Info: Initializing high level material: Types\Dynamic\Terminal\Terminal.highMaterial
-Info: Initializing high level material: Types\Dynamic\Terminal\TerminalClientNotSupportedInfo.highMaterial
-Info: Initializing high level material: Types\Dynamic\WindMill\WindMill.highMaterial
-Info: Initializing high level material: Types\Dynamic\WindMill\WindMillFan.highMaterial
-Info: Initializing high level material: Types\Dynamic\WoodBox\WoodBox.highMaterial
-Info: Initializing high level material: Types\Dynamic\YellowBlinkGridObject\BlueBlinkGrid.highMaterial
-Info: Initializing high level material: Types\Items\AccessCard\AccessCard.highMaterial
-Info: Initializing high level material: Types\Items\BulletItems\ShotgunBulletsItem\ShotgunBulletsItem.highMaterial
-Info: Initializing high level material: Types\Items\BulletItems\SubmachineGunBulletsItem\SubmachineGunBulletsItem.highMaterial
-Info: Initializing high level material: Types\Items\Dynamite\Dynamite.highMaterial
-Info: Initializing high level material: Types\Items\HealthItems\SmallHealthItem\SmallHealthItem.highMaterial
-Info: Initializing high level material: Types\RTSSpecific\Special\RTSBuildMaterial\RTSBuildMaterial.highMaterial
-Info: Initializing high level material: Types\RTSSpecific\Units\RTSConstructor\RTSConstructorBullet\RTSConstructorBulletHit.highMaterial
-Info: Initializing high level material: Types\RTSSpecific\Units\RTSFactory\RTSFactory.highMaterial
-Info: Initializing high level material: Types\RTSSpecific\Units\RTSFactory\RTSFactory2.highMaterial
-Info: Initializing high level material: Types\RTSSpecific\Units\RTSFactory\RTSFactoryGlass.highMaterial
-Info: Initializing high level material: Types\RTSSpecific\Units\RTSHeadquaters\RTSHeadquaters.highMaterial
-Info: Initializing high level material: Types\RTSSpecific\Units\RTSHeadquaters\RTSHeadquaters2.highMaterial
-Info: Initializing high level material: Types\RTSSpecific\Units\RTSMine\RTSMine.highMaterial
-Info: Initializing high level material: Types\RTSSpecific\Units\RTSMine\RTSMine2.highMaterial
-Info: Initializing high level material: Types\RTSSpecific\Units\RTSRobot\RTSRobotBullet\RTSRobotBulletHit.highMaterial
-Info: Initializing high level material: Types\Sky\BlueDaySky\BlueDaySky.highMaterial
-Info: Initializing high level material: Types\Special\WaterPlane\WaterSplash\WaterSplash.highMaterial
-Info: Initializing high level material: Types\Special\WaterPlane\WaterSplashWave\WaterSplashWave.highMaterial
-Info: Initializing high level material: Types\StaticObjects\EngineLogoPlacard\EngineLogoPlacard.highMaterial
-Info: Initializing high level material: Types\StaticObjects\Eyes\Eyes.highMaterial
-Info: Initializing high level material: Types\StaticObjects\Fir\Fir.highMaterial
-Info: Initializing high level material: Types\StaticObjects\Maple\Maple.highMaterial
-Info: Initializing high level material: Types\StaticObjects\Maple\MapleLOD1.highMaterial
-Info: Initializing high level material: Types\StaticObjects\MineBoard\MineBoard.highMaterial
-Info: Initializing high level material: Types\StaticObjects\OgreHead\BumpMappingExample\BumpMappingExample.highMaterial
-Info: Initializing high level material: Types\StaticObjects\OgreHead\OgreHead.highMaterial
-Info: Initializing high level material: Types\StaticObjects\OgreHead\OgreHeadAnimated.highMaterial
-Info: Initializing high level material: Types\StaticObjects\OgreHead\OgreHeadDynamicDiffuseScale.highMaterial
-Info: Initializing high level material: Types\StaticObjects\OgreHead\OgreHeadEyes.highMaterial
-Info: Initializing high level material: Types\StaticObjects\OgreHead\OgreHeadFangs.highMaterial
-Info: Initializing high level material: Types\StaticObjects\OgreHead\OgreHeadTransparentExample\OgreHeadTransparentExample.highMaterial
-Info: Initializing high level material: Types\StaticObjects\OgreHead\PerPixelLightingExample\PerPixelLightingExample.highMaterial
-Info: Initializing high level material: Types\StaticObjects\Palette\Palette.highMaterial
-Info: Initializing high level material: Types\StaticObjects\Palm\Palm.highMaterial
-Info: Initializing high level material: Types\StaticObjects\ParkingBarrier\ParkingBarrier.highMaterial
-Info: Initializing high level material: Types\StaticObjects\Pipe\Pipe.highMaterial
-Info: Initializing high level material: Types\StaticObjects\RabbitHead\RabbitHead.highMaterial
-Info: Initializing high level material: Types\StaticObjects\StaticBox\StaticBox.highMaterial
-Info: Initializing high level material: Types\StaticObjects\Stone\Stone.highMaterial
-Info: Initializing high level material: Types\StaticObjects\StopSign\StopSign.highMaterial
-Info: Initializing high level material: Types\StaticObjects\SwitchBox\SwitchBox.highMaterial
-Info: Initializing high level material: Types\StaticObjects\WallLamp\WallLamp.highMaterial
-Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat01.highMaterial
-Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat02.highMaterial
-Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat03.highMaterial
-Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat04.highMaterial
-Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat05.highMaterial
-Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat06.highMaterial
-Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat07.highMaterial
-Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat08.highMaterial
-Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat09.highMaterial
-Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat10.highMaterial
-Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat11.highMaterial
-Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat12.highMaterial
-Info: Initializing high level material: Types\Units\AwesomeAircraft\AwesomeAircraftWheelMat.highMaterial
-Info: Initializing high level material: Types\Units\Bug\Bug.highMaterial
-Info: Initializing high level material: Types\Units\Crane\CraneBase\CraneBase_ConcreteCleanColor.highMaterial
-Info: Initializing high level material: Types\Units\Crane\CraneBase\CraneBase_MetalPaintedColor.highMaterial
-Info: Initializing high level material: Types\Units\Crane\CraneBase\CraneBase_MetalPatern01Color.highMaterial
-Info: Initializing high level material: Types\Units\Crane\CraneBase\CraneBase_MetalPatern02Color.highMaterial
-Info: Initializing high level material: Types\Units\Crane\CraneGibbet\CraneGibbet_MetalPattern01Color.highMaterial
-Info: Initializing high level material: Types\Units\Crane\CraneMagnet\CraneMagnet_MetalPatern02Color.highMaterial
-Info: Initializing high level material: Types\Units\Crane\CraneTower\CraneTower_ConcreteBlockColor.highMaterial
-Info: Initializing high level material: Types\Units\Crane\CraneTower\CraneTower_MetalPaintedColor.highMaterial
-Info: Initializing high level material: Types\Units\Crane\CraneTower\CraneTower_MetalPatern_01Color.highMaterial
-Info: Initializing high level material: Types\Units\Crane\CraneTower\CraneTower_MetalPatern02Color.highMaterial
-Info: Initializing high level material: Types\Units\Crane\CraneTower\CraneTower_ObjectColor.highMaterial
-Info: Initializing high level material: Types\Units\Girl\GirlBody.highMaterial
-Info: Initializing high level material: Types\Units\Girl\GirlHairs.highMaterial
-Info: Initializing high level material: Types\Units\Helicopter\Helicopter.highMaterial
-Info: Initializing high level material: Types\Units\Rabbit\Rabbit.highMaterial
-Info: Initializing high level material: Types\Units\Robot\Robot.highMaterial
-Info: Initializing high level material: Types\Units\Robot\Robot2.highMaterial
-Info: Initializing high level material: Types\Units\Robot\RobotBullet\RobotBulletHit.highMaterial
-Info: Initializing high level material: Types\Units\TigerTank\TigerTank_Base.highMaterial
-Info: Initializing high level material: Types\Units\TigerTank\TigerTank_LeftTrack.highMaterial
-Info: Initializing high level material: Types\Units\TigerTank\TigerTank_RightTrack.highMaterial
-Info: Initializing high level material: Types\Units\Turret\Turret.highMaterial
-Info: Initializing high level material: Types\Units\Turret\TurretBullet\TurretBulletHit.highMaterial
-Info: Initializing high level material: Types\Units\Zombie\Zombie.highMaterial
-Info: Initializing high level material: Types\Units\Zombie\ZombieBullet\ZombieBullet.highMaterial
-Info: Initializing high level material: Types\Units\Zombie\ZombieBullet\ZombieBulletHitParticle.highMaterial
-Info: Initializing high level material: Types\Weapons\Hammer\Hammer.highMaterial
-Info: Initializing high level material: Types\Weapons\Shotgun\Shotgun.highMaterial
-Info: Initializing high level material: Types\Weapons\Shotgun\Shotgun_FPS.highMaterial
-Info: Initializing high level material: Types\Weapons\SubmachineGun\SubmachineGun.highMaterial
-Info: Initializing high level material: Types\Weapons\SubmachineGun\SubmachineGun_FPS.highMaterial
-Info: Initializing high level material: Types\Weapons\SubmachineGun\SubmachineGunFire.highMaterial
-Info: Initializing high level material: Utils\ResourceEditorGrid\ResourceEditorGrid_1.highMaterial
-Info: Initializing high level material: Utils\ResourceEditorGrid\ResourceEditorGrid_2.highMaterial
-Info: NativeMemoryManager: Leaks statistics begin
-Info: Leak - type: Renderer, size: 9836 x 1 = 9836 (file: NULL)
-Info: Leak - type: Renderer, size: 1132 x 1 = 1132 (file: NULL)
-Info: Leak - type: Renderer, size: 684 x 27 = 18468 (file: OgreParticleSystemManager.cpp:13)
-Info: Leak - type: Renderer, size: 684 x 27 = 18468 (file: OgreBillboardParticleRenderer.cpp:109)
-Info: Leak - type: Renderer, size: 532 x 1 = 532 (file: NULL)
-Info: Leak - type: Renderer, size: 436 x 1 = 436 (file: OgreTechnique.cpp:208)
-Info: Leak - type: Renderer, size: 320 x 1 = 320 (file: OgreMaterialManager.cpp:102)
-Info: Leak - type: Renderer, size: 304 x 1 = 304 (file: NULL)
-Info: Leak - type: Renderer, size: 268 x 2 = 536 (file: NULL)
-Info: Leak - type: Renderer, size: 264 x 2 = 528 (file: NULL)
-Info: Leak - type: Renderer, size: 232 x 1 = 232 (file: OgreMaterial.cpp:5)
-Info: Leak - type: Renderer, size: 224 x 1 = 224 (file: NULL)
-Info: Leak - type: Renderer, size: 208 x 1 = 208 (file: NULL)
-Info: Leak - type: Renderer, size: 188 x 2 = 376 (file: NULL)
-Info: Leak - type: Renderer, size: 168 x 1 = 168 (file: OgreRoot.cpp:167)
-Info: Leak - type: Renderer, size: 168 x 1 = 168 (file: NULL)
-Info: Leak - type: Renderer, size: 128 x 9 = 1152 (file: NULL)
-Info: Leak - type: Renderer, size: 100 x 1 = 100 (file: NULL)
-Info: Leak - type: Renderer, size: 76 x 1 = 76 (file: NULL)
-Info: Leak - type: Renderer, size: 72 x 29 = 2088 (file: NULL)
-Info: Leak - type: Renderer, size: 68 x 28 = 1904 (file: NULL)
-Info: Leak - type: Renderer, size: 56 x 6 = 336 (file: NULL)
-Info: Leak - type: Renderer, size: 52 x 3 = 156 (file: NULL)
-Info: Leak - type: Renderer, size: 48 x 49 = 2352 (file: NULL)
-Info: Leak - type: Renderer, size: 44 x 7 = 308 (file: NULL)
-Info: Leak - type: Renderer, size: 40 x 27 = 1080 (file: OgreBillboardParticleRenderer.cpp:33)
-Info: Leak - type: Renderer, size: 36 x 5 = 180 (file: NULL)
-Info: Leak - type: Renderer, size: 32 x 1 = 32 (file: OgreMaterial.cpp:86)
-Info: Leak - type: Renderer, size: 32 x 22 = 704 (file: NULL)
-Info: Leak - type: Renderer, size: 28 x 4 = 112 (file: NULL)
-Info: Leak - type: Renderer, size: 24 x 723 = 17352 (file: NULL)
-Info: Leak - type: Renderer, size: 20 x 4 = 80 (file: NULL)
-Info: Leak - type: Renderer, size: 16 x 29 = 464 (file: NULL)
-Info: Leak - type: Renderer, size: 12 x 1 = 12 (file: OgreParticleSystemManager.cpp:60)
-Info: Leak - type: Renderer, size: 12 x 154 = 1848 (file: NULL)
-Info: Leak - type: Renderer, size: 8 x 1 = 8 (file: OgreParticleSystemManager.cpp:165)
-Info: Leak - type: Renderer, size: 8 x 7 = 56 (file: NULL)
-Info: Leak - type: Renderer, size: 4 x 1 = 4 (file: OgreSharedPtr.h:79)
-Info: Leak - type: Renderer, size: 4 x 594 = 2376 (file: NULL)
-Info: Total size: 84716
-Info: NativeMemoryManager: Leaks statistics end
-Program END
+Info: OGRE: Texture: spot_shadow_fade.png: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+Info: OGRE: Texture: Materials\Common\White.jpg: Loading 1 faces(PF_R8G8B8,32x32x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,32x32x1.

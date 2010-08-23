@@ -71,12 +71,13 @@ namespace GameEntities
         //sound
         bool motorOn;
         bool firstTick = true;
-        
+        VirtualChannel motorSoundChannel;
+       
 
         protected override void OnPostCreate(bool loaded)
         {
             base.OnPostCreate(loaded);
-
+            
             foreach (MapObjectAttachedObject attachedObject in AttachedObjects)
             {
                 MapObjectAttachedMesh attachedMeshObject = attachedObject as MapObjectAttachedMesh;
@@ -165,14 +166,26 @@ namespace GameEntities
             {
                 //if (!firstTick && Life != 0)
                 //{
-                    if (motorOn)
-                        SoundPlay3D(Type.SoundOn, .7f, true);
-                    else
-                        SoundPlay3D(Type.SoundOff, .7f, true);
+                if (motorOn)
+                {
+                    // SoundPlay3D(Type.SoundOn, .7f, true);
+                    Sound sound = SoundWorld.Instance.SoundCreate(Type.SoundOn,
+                        SoundMode.Mode3D | SoundMode.Loop);
+                    motorSoundChannel = SoundWorld.Instance.SoundPlay(
+                            sound, EngineApp.Instance.DefaultSoundChannelGroup, .3f, true);
+                    motorSoundChannel.Position = mainBody.Position;
+                    motorSoundChannel.Pause = false;
+                }
+                else
+                    SoundPlay3D(Type.SoundOff, .7f, true);
                 //}
+               
             }
-        
-           
+
+            if (motorOn)
+            {
+                motorSoundChannel.Position = mainBody.Position;
+            }
 
            
         }
