@@ -4,6 +4,8 @@ physicsModel
 {
 	body MainBody
 	{
+		position = 0 -0.06960869 0
+		rotation = -0.01006398 0 0 0.9999494
 		shape
 		{
 			type = box

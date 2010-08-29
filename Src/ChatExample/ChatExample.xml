@@ -4,6 +4,23 @@
         <name>ChatExample</name>
     </assembly>
     <members>
+        <member name="F:ChatExample.ClientForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChatExample.ClientForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChatExample.ClientForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="F:ChatExample.MainForm.components">
             <summary>
             Required designer variable.
@@ -21,18 +38,18 @@
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="F:ChatExample.ClientForm.components">
+        <member name="F:ChatExample.ServerForm.components">
             <summary>
             Required designer variable.
             </summary>
         </member>
-        <member name="M:ChatExample.ClientForm.Dispose(System.Boolean)">
+        <member name="M:ChatExample.ServerForm.Dispose(System.Boolean)">
             <summary>
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:ChatExample.ClientForm.InitializeComponent">
+        <member name="M:ChatExample.ServerForm.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
@@ -52,23 +69,6 @@
             <summary>
               Overrides the current thread's CurrentUICulture property for all
               resource lookups using this strongly typed resource class.
-            </summary>
-        </member>
-        <member name="F:ChatExample.ServerForm.components">
-            <summary>
-            Required designer variable.
-            </summary>
-        </member>
-        <member name="M:ChatExample.ServerForm.Dispose(System.Boolean)">
-            <summary>
-            Clean up any resources being used.
-            </summary>
-            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        </member>
-        <member name="M:ChatExample.ServerForm.InitializeComponent">
-            <summary>
-            Required method for Designer support - do not modify
-            the contents of this method with the code editor.
             </summary>
         </member>
         <member name="M:ChatExample.Program.Main">

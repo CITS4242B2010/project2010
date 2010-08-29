@@ -17,18 +17,18 @@ end general
 #handling parameters
 begin handling
 thrustInc		1			#thrustMax = 100
-aileronMax		1 #1.5
+aileronMax		1.5
 aileronInc		.03
-aileronDamping          .02 #adjusts theleft and right directions (a and d keyss)
+aileronDamping          .02
 elevatorMax		1
 elevatorInc		.05
-elevatorDamping		0 #.03
+elevatorDamping		.03
 rudderMax		2
 rudderInc		.05
 rudderDamping           .03
 accelInc                .05
 accelMax                30
-speedMax                30 #NB 50 is too fast
+speedMax                50
 end handling
 
 

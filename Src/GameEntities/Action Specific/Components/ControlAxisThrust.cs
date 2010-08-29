@@ -69,6 +69,7 @@ namespace GameEntities
                 if (val < 0) val += decrement;
             }
 
+         
             if (damp)
             {
                 if (val < 0)

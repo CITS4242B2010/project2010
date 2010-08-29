@@ -63,6 +63,16 @@ namespace GameEntities
         public ControlAxis axisElevator = new ControlAxis();
         public ControlAxis axisRudder = new ControlAxis();
         public ControlThrust controlThrust = new ControlThrust();
+        private Vec3 bgearLandPosition;
+        private Vec3 frgearLandPosition;
+        private Vec3 flgearLandPosition;
+        private Vec3 originalBackWheelScale;
+        private Vec3 originalLeftWheelScale;
+        private Vec3 originalRightWheelScale;
+        private Vec3 decrement = new Vec3((float)0,(float)0,(float).02);
+        private int counter = 0;
+        public bool gearup=false;
+        public bool geardown = true;
 
         // Initial Parameters
         Vec3 initialPosition;
@@ -114,6 +124,13 @@ namespace GameEntities
             springs[0] = new SpringWheel(skel.GetBone("BoneWheelFL"), this, length, stiffness, damping);
             springs[1] = new SpringWheel(skel.GetBone("BoneWheelFR"), this, length, stiffness, damping);
             springs[2] = new SpringWheel(skel.GetBone("BoneWheelB"), this, length, stiffness, damping);
+            bgearLandPosition = skel.GetBone("BoneWheelB").Position;
+            flgearLandPosition = skel.GetBone("BoneWheelFL").Position;
+            
+            frgearLandPosition = skel.GetBone("BoneWheelFR").Position;
+            originalBackWheelScale = skel.GetBone("BoneWheelB").Scale;
+            originalLeftWheelScale = skel.GetBone("BoneWheelFL").Scale;
+            originalRightWheelScale = skel.GetBone("BoneWheelFR").Scale;
 
         }
 
@@ -150,7 +167,18 @@ namespace GameEntities
                     Reset(Quat.Identity);
 
                 flightModel.TickAndApplyForces(mainBody, TickDelta);
+                if (Intellect.IsControlKeyPressed(GameControlKeys.Weapon2))
+                {
+                    gearup = true;
+                    geardown = false;
+                }
+                if (Intellect.IsControlKeyPressed(GameControlKeys.Weapon3))
+                {
+                    gearup = false;
+                    geardown = true;
+                }
             }
+           
             TickMotorSound();
             AdjustBones();
 
@@ -222,7 +250,9 @@ namespace GameEntities
         private void AdjustBones()
         {
             SkeletonInstance skel = mainMeshObject.Skeleton;
+            
             Mat3 rot;
+            Mat3 scale;
 
             // Aileron Right
             Mat3.FromRotateByY(+MathFunctions.DegToRad(axisAileron.Value * 10), out rot);
@@ -239,6 +269,45 @@ namespace GameEntities
             // Rudder
             Mat3.FromRotateByZ(-MathFunctions.DegToRad(axisRudder.Value * 10), out rot);
             skel.GetBone("BoneRudder").Rotation = OriginalElevatorRot * rot.ToQuat();
+
+            if (gearup)
+            {
+                if (counter < 15)
+                {
+                    Bone wheelBone = skel.GetBone("BoneWheelB");
+                    wheelBone.Position = wheelBone.Position + decrement;
+                    springs[2].changeBone(wheelBone);
+
+                    Bone lwheelBone = skel.GetBone("BoneWheelFL");
+                    lwheelBone.Position = lwheelBone.Position + decrement;
+                    springs[0].changeBone(lwheelBone);
+
+
+                    Bone rwheelBone = skel.GetBone("BoneWheelFR");
+                    rwheelBone.Position = rwheelBone.Position + decrement;
+                    springs[1].changeBone(rwheelBone);
+                    counter++;
+                }
+
+            }
+            else if (geardown) 
+            {               
+                Bone wheelBone = skel.GetBone("BoneWheelB");
+                wheelBone.Position = bgearLandPosition;                
+                springs[2].changeBone(wheelBone);
+
+                Bone lwheelBone = skel.GetBone("BoneWheelFL");
+                lwheelBone.Position = flgearLandPosition;                
+                springs[0].changeBone(lwheelBone);
+
+
+                Bone rwheelBone = skel.GetBone("BoneWheelFR");
+                rwheelBone.Position = frgearLandPosition;                
+                springs[1].changeBone(rwheelBone);
+                counter = 0;
+            }
+            
+            
 
 
         }

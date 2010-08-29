@@ -2,7 +2,7 @@ type = GameMap
 uin = 2
 classPrompt = GameMap
 gameMusic = Sounds\Music\Game.ogg
-ambientLight = 0.2 0.2 0.2
+ambientLight = 0.8470589 0.8470589 0.8470589
 editorCameraPosition = 10 0 10
 editorCameraDirection = 1.570796 -0.7853982
 shadowColor = 1 1 1
@@ -21,4 +21,72 @@ entity
 		type = LogicClassManager
 		uin = 4
 	}
+}
+entity
+{
+	type = HeightmapTerrain
+	uin = 5
+	classPrompt = HeightmapTerrain
+	position = 0 0 -50
+	horizontalSize = 1000
+	verticalSize = 100
+	dataDirectory = HeightmapTerrain
+	masksSize = 1024
+	detailMapsDistance = 50
+	renderQueueGroup = WorldGeometry1
+	collisionMaterialName = Default
+	bottomClipHeight = -10000
+	castDynamicShadows = False
+	receiveStaticShadows = True
+	simpleRendering = False
+	tileSize = 16
+	layers
+	{
+		item
+		{
+			name = base
+			baseMap = Types\Base\HeightmapTerrain\DefaultLayer0Base.jpg
+			baseScale = 10
+			detailMap = Types\Base\HeightmapTerrain\DefaultLayer0Detail.jpg
+			detailScale = 2
+		}
+		item
+		{
+			name = second
+			baseMap = Types\Base\HeightmapTerrain\DefaultLayer1Base.jpg
+			baseScale = 10
+			detailMap = Types\Base\HeightmapTerrain\DefaultLayer1Detail.jpg
+			detailScale = 2
+		}
+	}
+}
+entity
+{
+	type = SpawnPoint
+	uin = 6
+	classPrompt = SpawnPoint
+	defaultPoint = False
+	position = 14.09764 13.21036 1.04321
+	rotation = 0 0 -0.2133924 0.9769666
+	name = SpawnPoint_0
+}
+entity
+{
+	type = AwesomeAircraft
+	uin = 7
+	classPrompt = AwesomeAircraft
+	intellectShouldDeleteAfterDetach = False
+	position = 17.32287 11.82401 0.8428392
+	rotation = 0 0 -0.5078611 -0.861439
+	name = AwesomeAircraft_0
+}
+entity
+{
+	type = StaticMesh
+	uin = 8
+	classPrompt = StaticMesh
+	position = 7.558822 12.73312 0.005342444
+	rotation = 0 0 -0.3905147 0.9205967
+	scale = 61.39424 31.9286 1
+	meshName = Models\ZPlane\ZPlane.mesh
 }

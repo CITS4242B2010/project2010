@@ -1,0 +1,672 @@
+Log started: 8/16/2010 2:53:23 PM
+Resource Editor 0.852
+Info: Operating System: Microsoft Windows NT 6.1.7600.0 (32-bit)
+Info: Runtime Framework: Net 2.0.50727.4952
+Info: Engine SDK: Non-Commercial SDK
+Info: Engine 32-bit version
+Info: Physics system is initialized (Driver: ODE 0.11.1)
+Info: OGRE: Added resource location 'H:\Project_Work\FlightGame\Bin\Data' of type 'VirtualFileSystem' to resource group 'General' with recursive option
+Info: OGRE: Loading library RenderSystem_Direct3D9.dll
+Info: OGRE: Installing plugin: D3D9 RenderSystem
+Info: OGRE: D3D9 : Direct3D9 Rendering Subsystem created.
+Info: OGRE: D3D9: Driver Detection Starts
+Info: OGRE: D3D9: Driver Detection Ends
+Info: OGRE: Plugin successfully installed
+Info: OGRE: CPU Identifier & Features
+Info: OGRE: -------------------------
+Info: OGRE:  *   CPU ID: GenuineIntel: Intel(R) Core(TM)2 Quad CPU    Q9400  @ 2.66GHz
+Info: OGRE:  *      SSE: yes
+Info: OGRE:  *     SSE2: yes
+Info: OGRE:  *     SSE3: yes
+Info: OGRE:  *      MMX: yes
+Info: OGRE:  *   MMXEXT: yes
+Info: OGRE:  *    3DNOW: no
+Info: OGRE:  * 3DNOWEXT: no
+Info: OGRE:  *     CMOV: yes
+Info: OGRE:  *      TSC: yes
+Info: OGRE:  *      FPU: yes
+Info: OGRE:  *      PRO: yes
+Info: OGRE:  *       HT: no
+Info: OGRE: -------------------------
+Info: OGRE: D3D9 : Subsystem Initialising
+Info: OGRE: Driver name: nvd3dum.dll
+Info: OGRE: Driver description: NVIDIA GeForce 9500 GT
+Info: OGRE: ***************************************
+Info: OGRE: *** D3D9 : Subsystem Initialised OK ***
+Info: OGRE: ***************************************
+Info: OGRE: D3D9RenderSystem::_createRenderWindow "MainWindow", 640x480 windowed  miscParams: colourDepth=32 externalWindowHandle=1311844 
+Info: OGRE: D3D9 : Created D3D9 Rendering Window 'MainWindow' : 10x10, 32bpp
+Info: OGRE: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+Info: OGRE: Registering ResourceManager for type Texture
+Info: OGRE: Registering ResourceManager for type GpuProgram
+Info: OGRE: RenderSystem capabilities
+Info: OGRE: -------------------------
+Info: OGRE: RenderSystem Name: Direct3D9 Rendering Subsystem
+Info: OGRE: GPU Vendor: nvidia
+Info: OGRE: Device Name: NVIDIA GeForce 9500 GT
+Info: OGRE: Driver Version: 8.16.11.9107
+Info: OGRE:  * Fixed function pipeline: yes
+Info: OGRE:  * Hardware generation of mipmaps: yes
+Info: OGRE:  * Texture blending: yes
+Info: OGRE:  * Anisotropic texture filtering: yes
+Info: OGRE:  * Dot product texture operation: yes
+Info: OGRE:  * Cube mapping: yes
+Info: OGRE:  * Hardware stencil buffer: yes
+Info: OGRE:    - Stencil depth: 8
+Info: OGRE:    - Two sided stencil support: yes
+Info: OGRE:    - Wrap stencil values: yes
+Info: OGRE:  * Hardware vertex / index buffers: yes
+Info: OGRE:  * Vertex programs: yes
+Info: OGRE:  * Fragment programs: yes
+Info: OGRE:  * Geometry programs: no
+Info: OGRE:  * Supported Shader Profiles: hlsl ps_1_1 ps_1_2 ps_1_3 ps_1_4 ps_2_0 vs_1_1 vs_2_0
+Info: OGRE:  * Texture Compression: yes
+Info: OGRE:    - DXT: yes
+Info: OGRE:    - VTC: no
+Info: OGRE:    - 3Dc: yes
+Info: OGRE:  * Scissor Rectangle: yes
+Info: OGRE:  * Hardware Occlusion Query: yes
+Info: OGRE:  * User clip planes: yes
+Info: OGRE:  * VET_UBYTE4 vertex element type: yes
+Info: OGRE:  * Infinite far plane projection: yes
+Info: OGRE:  * Hardware render-to-texture: yes
+Info: OGRE:  * Floating point textures: yes
+Info: OGRE:  * Non-power-of-two textures: yes
+Info: OGRE:  * Volume textures: yes
+Info: OGRE:  * Multiple Render Targets: 4
+Info: OGRE:    - With different bit depths: yes
+Info: OGRE:  * Point Sprites: yes
+Info: OGRE:  * Extended point parameters: yes
+Info: OGRE:  * Max Point Size: 8192
+Info: OGRE:  * Vertex texture fetch: no
+Info: OGRE:  * Render to Vertex Buffer : no
+Info: OGRE:  * Alpha to coverage: no
+Info: OGRE:  * Fetch4: no
+Info: OGRE:  * Hardware Instancing: yes
+Info: OGRE:  * DirectX per stage constants: yes
+Info: OGRE:  * Max texture size: 8192
+Info: OGRE: ResourceBackgroundQueue - threading disabled
+Info: OGRE: Particle Renderer Type 'billboard' registered
+Info: Renderer: GPU description: NVIDIA GeForce 9500 GT
+Info: Renderer: GPU codename: GeForce_G90
+Info: Renderer: Shader model 2.0: yes
+Info: Renderer: Shader model 3.0: no
+Info: 2D texture render target pixel formats: ByteL ByteL R5G6B5 A8R8G8B8 A2R10G10B10 A2B10G10R10 Float16RGBA Float32RGBA X8R8G8B8 Depth24 ShortRGBA Float16R Float32R ShortGR Float16GR Float32GR
+Info: OGRE: Parsing scripts for resource group Autodetect
+Info: OGRE: Finished parsing scripts for resource group Autodetect
+Info: OGRE: Parsing scripts for resource group General
+Info: OGRE: Parsing script Materials\Common\AmbientOneTexture.program
+Info: OGRE: Parsing script Materials\Common\GuiRendering.program
+Info: OGRE: Parsing script Materials\Common\StdQuad_vp.program
+Info: OGRE: Parsing script Materials\Common\DepthShadowmapDefaultCaster.material
+Info: OGRE: Parsing script Materials\Common\DepthShadowmapDefaultCaster_ATI.material
+Info: OGRE: Parsing script Materials\Common\DepthShadowmapDefaultCaster_nVidia.material
+Info: OGRE: Parsing script Materials\PostEffects\Blur\Blur.material
+Info: OGRE: Parsing script Materials\PostEffects\Glass\Glass.material
+Info: OGRE: Parsing script Materials\PostEffects\Grayscale\Grayscale.material
+Info: OGRE: Parsing script Materials\PostEffects\HDR\hdr_Bloom.material
+Info: OGRE: Parsing script Materials\PostEffects\HDR\hdr_BrightPass.material
+Info: OGRE: Parsing script Materials\PostEffects\HDR\hdr_CalculateAdaptedLuminance.material
+Info: OGRE: Parsing script Materials\PostEffects\HDR\hdr_CopyLastAdaptedLuminance.material
+Info: OGRE: Parsing script Materials\PostEffects\HDR\hdr_FinalToneMapping.material
+Info: OGRE: Parsing script Materials\PostEffects\HDR\hdr_GaussianBlur5x5.material
+Info: OGRE: Parsing script Materials\PostEffects\HDR\hdr_SampleLuminanceFinal.material
+Info: OGRE: Parsing script Materials\PostEffects\HDR\hdr_SampleLuminanceInitial.material
+Info: OGRE: Parsing script Materials\PostEffects\HDR\hdr_SampleLuminanceIterative.material
+Info: OGRE: Parsing script Materials\PostEffects\HeatVision\HaatVision_LightToHeat.material
+Info: OGRE: Parsing script Materials\PostEffects\HeatVision\HeatVision_Blur.material
+Info: OGRE: Parsing script Materials\PostEffects\Invert\Invert.material
+Info: OGRE: Parsing script Materials\PostEffects\LDRBloom\LDRBloom_Bloom.material
+Info: OGRE: Parsing script Materials\PostEffects\LDRBloom\LDRBloom_BrightPass.material
+Info: OGRE: Parsing script Materials\PostEffects\LDRBloom\LDRBloom_Final.material
+Info: OGRE: Parsing script Materials\PostEffects\LDRBloom\LDRBloom_GaussianBlur5x5.material
+Info: OGRE: Parsing script Materials\PostEffects\MotionBlur\MotionBlur_Combine.material
+Info: OGRE: Parsing script Materials\PostEffects\MotionBlur\MotionBlur_Copyback.material
+Info: OGRE: Parsing script Materials\PostEffects\MotionBlur\MotionBlur_Display.material
+Info: OGRE: Parsing script Materials\PostEffects\OldTV\OldTV.material
+Info: OGRE: Parsing script Materials\PostEffects\RadialBlur\RadialBlur.material
+Info: OGRE: Parsing script Materials\PostEffects\Tiling\Tiling.material
+Info: OGRE: Parsing script Materials\PostEffects\Blur\Blur.compositor
+Info: OGRE: Parsing script Materials\PostEffects\Glass\Glass.compositor
+Info: OGRE: Parsing script Materials\PostEffects\Grayscale\Grayscale.compositor
+Info: OGRE: Parsing script Materials\PostEffects\HDR\hdr.compositor
+Info: OGRE: Parsing script Materials\PostEffects\HeatVision\HeatVision.compositor
+Info: OGRE: Parsing script Materials\PostEffects\Invert\Invert.compositor
+Info: OGRE: Parsing script Materials\PostEffects\LDRBloom\LDRBloom.compositor
+Info: OGRE: Parsing script Materials\PostEffects\MotionBlur\MotionBlur.compositor
+Info: OGRE: Parsing script Materials\PostEffects\OldTV\OldTV.compositor
+Info: OGRE: Parsing script Materials\PostEffects\RadialBlur\RadialBlur.compositor
+Info: OGRE: Parsing script Materials\PostEffects\Tiling\Tiling.compositor
+Info: OGRE: Parsing script _Tests\ParticleSystem\EmittersTest.particle
+Info: OGRE: Parsing script Effects\ExplosionParticle\ExplosionParticle.particle
+Info: OGRE: Parsing script Effects\FireParticle\BigFireParticle.particle
+Info: OGRE: Parsing script Effects\FireParticle\FireParticle.particle
+Info: OGRE: Parsing script Effects\GreenyNimbusParticle\GreenyNimbusParticle.particle
+Info: OGRE: Parsing script Effects\ItemParticle\ItemParticle.particle
+Info: OGRE: Parsing script Effects\SmallSmokeParticle\SmallSmokeParticle.particle
+Info: OGRE: Parsing script Effects\SmallSmokeParticle2\SmallSmokeParticle2.particle
+Info: OGRE: Parsing script Effects\SmokeParticle\SmokeParticle.particle
+Info: OGRE: Parsing script Types\Bullets\ShotgunBullet\ShotgunBullet.particle
+Info: OGRE: Parsing script Types\Bullets\ShotgunBullet\ShotgunBulletHit.particle
+Info: OGRE: Parsing script Types\Bullets\SubmachineGunBullet\SubmachineGunBulletHit.particle
+Info: OGRE: Parsing script Types\Bullets\SubmachineGunGrenade\SubmachineGunGrenadeParticle.particle
+Info: OGRE: Parsing script Types\Dynamic\DestructibleHouse\DestructibleHouseFileParticle.particle
+Info: OGRE: Parsing script Types\Dynamic\Fan\FanParticle\FanParticle.particle
+Info: OGRE: Parsing script Types\Dynamic\Firework\FireworkBullet\FireworkBulletHit.particle
+Info: OGRE: Parsing script Types\Dynamic\GasFlamePipe\GasFlamePipeParticle\GasFlamePipe.particle
+Info: OGRE: Parsing script Types\Dynamic\Pipe\PipeLeak\PipeLeakFlameParticle\PipeLeakFlame.particle
+Info: OGRE: Parsing script Types\Dynamic\Pipe\PipeLeak\PipeLeakSteamParticle\PipeLeakSteam.particle
+Info: OGRE: Parsing script Types\RTSSpecific\Dynamic\RTSGeyser\RTSGeyserParticle.particle
+Info: OGRE: Parsing script Types\RTSSpecific\Units\RTSConstructor\RTSConstructorBullet\RTSConstructorBulletHit.particle
+Info: OGRE: Parsing script Types\RTSSpecific\Units\RTSRobot\RTSRobotBullet\RTSRobotBulletHit.particle
+Info: OGRE: Parsing script Types\Special\WaterPlane\WaterSplash\WaterSplash.particle
+Info: OGRE: Parsing script Types\Special\WaterPlane\WaterSplashWave\WaterSplashWave.particle
+Info: OGRE: Parsing script Types\Units\Robot\RobotBullet\RobotBulletHit.particle
+Info: OGRE: Parsing script Types\Units\Turret\TurretBullet\TurretBulletHit.particle
+Info: OGRE: Parsing script Types\Units\Zombie\ZombieBullet\ZombieBulletHit.particle
+Info: OGRE: Finished parsing scripts for resource group General
+Info: OGRE: Parsing scripts for resource group Internal
+Info: OGRE: Finished parsing scripts for resource group Internal
+Info: Initializing high level material: _Tests\ParticleSystem\TestPointParticle.highMaterial
+Info: Initializing high level material: Effects\DefaultFlare\DefaultFlare.highMaterial
+Info: Initializing high level material: Effects\ExplosionParticle\ExplosionParticle.highMaterial
+Info: Initializing high level material: Effects\FireParticle\FireParticle.highMaterial
+Info: Initializing high level material: Effects\ItemParticle\ItemParticle.highMaterial
+Info: Initializing high level material: Effects\SmokeParticle\SmokeParticle.highMaterial
+Info: Initializing high level material: JigsawPuzzleGame\JigsawPuzzleImage.highMaterial
+Info: Initializing high level material: JigsawPuzzleGame\JigsawPuzzleImageBackground.highMaterial
+Info: Initializing high level material: Maps\PortalSystemDemo\StaticGeometry\Garage\FpsDemoGarage_Celling.highMaterial
+Info: Initializing high level material: Maps\PortalSystemDemo\StaticGeometry\Garage\FpsDemoGarage_Floor.highMaterial
+Info: Initializing high level material: Maps\PortalSystemDemo\StaticGeometry\Garage\FpsDemoGarage_OuterWall.highMaterial
+Info: Initializing high level material: Maps\PortalSystemDemo\StaticGeometry\Garage\FpsDemoGarage_Roof.highMaterial
+Info: Initializing high level material: Maps\PortalSystemDemo\StaticGeometry\Garage\FpsDemoGarage_Wall.highMaterial
+Info: Initializing high level material: Maps\PortalSystemDemo\StaticGeometry\House\FpsDemoHouse_BrickWall.highMaterial
+Info: Initializing high level material: Maps\PortalSystemDemo\StaticGeometry\House\FpsDemoHouse_Celling.highMaterial
+Info: Initializing high level material: Maps\PortalSystemDemo\StaticGeometry\House\FpsDemoHouse_Floor.highMaterial
+Info: Initializing high level material: Maps\PortalSystemDemo\StaticGeometry\House\FpsDemoHouse_LargeBricks.highMaterial
+Info: Initializing high level material: Maps\PortalSystemDemo\StaticGeometry\House\FpsDemoHouse_WallMetal.highMaterial
+Info: Initializing high level material: Maps\PortalSystemDemo\StaticGeometry\House\FpsDemoHouse_WallPainted.highMaterial
+Info: Initializing high level material: Maps\RenderDemo\Materials\RenderDemoCelling.highMaterial
+Info: Initializing high level material: Maps\RenderDemo\Materials\RenderDemoCorridorFloor.highMaterial
+Info: Initializing high level material: Maps\RenderDemo\Materials\RenderDemoDoor.highMaterial
+Info: Initializing high level material: Maps\RenderDemo\Materials\RenderDemoLamp.highMaterial
+Info: Initializing high level material: Maps\RenderDemo\Materials\RenderDemoRoomFloor.highMaterial
+Info: Initializing high level material: Maps\RenderDemo\Materials\RenderDemoTrims.highMaterial
+Info: Initializing high level material: Maps\RenderDemo\Materials\RenderDemoWall.highMaterial
+Info: Initializing high level material: Maps\RTSDemo\Models\RTSConcreteBlock\RTSConcreteBlock.highMaterial
+Info: Initializing high level material: Maps\TankDemo\Resources\Meshes\FakeTrees\TankDemoFakeTrees.highMaterial
+Info: Initializing high level material: Maps\TankDemo\Resources\Meshes\Stone\TankDemoStone.highMaterial
+Info: Initializing high level material: Maps\TankDemo\Resources\Meshes\Trees\TankDemoTree_Bark.highMaterial
+Info: Initializing high level material: Maps\TankDemo\Resources\Meshes\Trees\TankDemoTree_Leafs.highMaterial
+Info: Initializing high level material: Maps\TPSArcadeDemo\Resources\Models\TPSDemoRock.highMaterial
+Info: Initializing high level material: Maps\TPSArcadeDemo\Resources\Models\TPSDemoRockStone.highMaterial
+Info: Initializing high level material: Maps\TurretDemo\Resources\Models\TurretDemoRock.highMaterial
+Info: Initializing high level material: Maps\TurretDemo\Resources\Models\TurretDemoRockStone.highMaterial
+Info: Initializing high level material: Maps\TurretDemo\Resources\Models\TurretDemoRockStone2.highMaterial
+Info: Initializing high level material: Materials\Simple\Black.highMaterial
+Info: Initializing high level material: Materials\Simple\Blue.highMaterial
+Info: Initializing high level material: Materials\Simple\DarkBlue.highMaterial
+Info: Initializing high level material: Materials\Simple\DarkGray.highMaterial
+Info: Initializing high level material: Materials\Simple\DarkGreen.highMaterial
+Info: Initializing high level material: Materials\Simple\DarkRed.highMaterial
+Info: Initializing high level material: Materials\Simple\DarkYellow.highMaterial
+Info: Initializing high level material: Materials\Simple\Gray.highMaterial
+Info: Initializing high level material: Materials\Simple\Green.highMaterial
+Info: Initializing high level material: Materials\Simple\Red.highMaterial
+Info: Initializing high level material: Materials\Simple\White.highMaterial
+Info: Initializing high level material: Materials\Simple\Yellow.highMaterial
+Info: Initializing high level material: Models\Beam\Beam.highMaterial
+Info: Initializing high level material: Models\RockBig\RockBig.highMaterial
+Info: Initializing high level material: Models\Rooms\Rooms_Celling.highMaterial
+Info: Initializing high level material: Models\Rooms\Rooms_Cells.highMaterial
+Info: Initializing high level material: Models\Rooms\Rooms_ConcreteWall.highMaterial
+Info: Initializing high level material: Models\Rooms\Rooms_FloorHall.highMaterial
+Info: Initializing high level material: Models\Rooms\Rooms_PassageWall.highMaterial
+Info: Initializing high level material: Models\SandBags\SandBags.highMaterial
+Info: Initializing high level material: Types\Base\Light\LightFlare.highMaterial
+Info: Initializing high level material: Types\Bullets\ShotgunBullet\ShotgunBulletHitParticle.highMaterial
+Info: Initializing high level material: Types\Bullets\ShotgunBullet\ShotgunBulletRibbonTrail.highMaterial
+Info: Initializing high level material: Types\Bullets\SubmachineGunBullet\SubmachineGunBulletHit.highMaterial
+Info: Initializing high level material: Types\Decals\DefaultBulletDecal\DefaultBulletDecal.highMaterial
+Info: Initializing high level material: Types\Decals\DefaultExplosionDecal\DefaultExplosionDecal.highMaterial
+Info: Initializing high level material: Types\Decals\ZombieBulletDecal\ZombieBulletDecal.highMaterial
+Info: Initializing high level material: Types\DecorativeObjects\DecorativeStones\DecorativeStones.highMaterial
+Info: Initializing high level material: Types\DecorativeObjects\Ear\Ear.highMaterial
+Info: Initializing high level material: Types\DecorativeObjects\FlowerWhite\FlowerWhite.highMaterial
+Info: Initializing high level material: Types\DecorativeObjects\FlowerYellow\FlowerYellow.highMaterial
+Info: Initializing high level material: Types\DecorativeObjects\GrassBrown\GrassBrown.highMaterial
+Info: Initializing high level material: Types\DecorativeObjects\GrassGreen\GrassGreen.highMaterial
+Info: Initializing high level material: Types\Dynamic\Ball\Ball.highMaterial
+Info: Initializing high level material: Types\Dynamic\BooleanSwitch\BooleanSwitch.highMaterial
+Info: Initializing high level material: Types\Dynamic\BooleanSwitch\BooleanSwitchOff.highMaterial
+Info: Initializing high level material: Types\Dynamic\BooleanSwitch\BooleanSwitchOn.highMaterial
+Info: Initializing high level material: Types\Dynamic\Box\Box.highMaterial
+Info: Initializing high level material: Types\Dynamic\CubemapReflectedBall\CubemapReflectedBall.highMaterial
+Info: Initializing high level material: Types\Dynamic\DestructibleHouse\DestructibleHouse.highMaterial
+Info: Initializing high level material: Types\Dynamic\DestructibleHouse\DestructibleHouseWinDoor.highMaterial
+Info: Initializing high level material: Types\Dynamic\Door\Door.highMaterial
+Info: Initializing high level material: Types\Dynamic\ExampleMagicBall\ExampleMagicBallBlinkMaterial.highMaterial
+Info: Initializing high level material: Types\Dynamic\ExplosionBarrel\ExplosionBarrel.highMaterial
+Info: Initializing high level material: Types\Dynamic\Fan\Fan.highMaterial
+Info: Initializing high level material: Types\Dynamic\Fan\FanParticle\FanParticle.highMaterial
+Info: Initializing high level material: Types\Dynamic\Firework\FireworkBullet\FireworkBulletRibbonTrail.highMaterial
+Info: Initializing high level material: Types\Dynamic\FlareTest\FlareTest.highMaterial
+Info: Initializing high level material: Types\Dynamic\GasFlamePipe\GasFlamePipeParticle\GasFlamePipeParticle.highMaterial
+Info: Initializing high level material: Types\Dynamic\HangingCable\HangingCable.highMaterial
+Info: Initializing high level material: Types\Dynamic\HangingLamp\HangingLampBase.highMaterial
+Info: Initializing high level material: Types\Dynamic\HangingLamp\HangingLampLamps.highMaterial
+Info: Initializing high level material: Types\Dynamic\LightBall\LightBall.highMaterial
+Info: Initializing high level material: Types\Dynamic\Pipe\PipeLeak\PipeLeakFlameParticle\PipeLeakFlameParticle.highMaterial
+Info: Initializing high level material: Types\Dynamic\Pipe\PipeLeak\PipeLeakSteamParticle\PipeLeakSteamParticle.highMaterial
+Info: Initializing high level material: Types\Dynamic\Pipe\PipeSwitch\PipeSwitch.highMaterial
+Info: Initializing high level material: Types\Dynamic\Placard\Placard.highMaterial
+Info: Initializing high level material: Types\Dynamic\Placard\Placard_Holders.highMaterial
+Info: Initializing high level material: Types\Dynamic\Teleporter\Teleporter.highMaterial
+Info: Initializing high level material: Types\Dynamic\Terminal\Terminal.highMaterial
+Info: Initializing high level material: Types\Dynamic\Terminal\TerminalClientNotSupportedInfo.highMaterial
+Info: Initializing high level material: Types\Dynamic\WindMill\WindMill.highMaterial
+Info: Initializing high level material: Types\Dynamic\WindMill\WindMillFan.highMaterial
+Info: Initializing high level material: Types\Dynamic\WoodBox\WoodBox.highMaterial
+Info: Initializing high level material: Types\Dynamic\YellowBlinkGridObject\BlueBlinkGrid.highMaterial
+Info: Initializing high level material: Types\Items\AccessCard\AccessCard.highMaterial
+Info: Initializing high level material: Types\Items\BulletItems\ShotgunBulletsItem\ShotgunBulletsItem.highMaterial
+Info: Initializing high level material: Types\Items\BulletItems\SubmachineGunBulletsItem\SubmachineGunBulletsItem.highMaterial
+Info: Initializing high level material: Types\Items\Dynamite\Dynamite.highMaterial
+Info: Initializing high level material: Types\Items\HealthItems\SmallHealthItem\SmallHealthItem.highMaterial
+Info: Initializing high level material: Types\RTSSpecific\Special\RTSBuildMaterial\RTSBuildMaterial.highMaterial
+Info: Initializing high level material: Types\RTSSpecific\Units\RTSConstructor\RTSConstructorBullet\RTSConstructorBulletHit.highMaterial
+Info: Initializing high level material: Types\RTSSpecific\Units\RTSFactory\RTSFactory.highMaterial
+Info: Initializing high level material: Types\RTSSpecific\Units\RTSFactory\RTSFactory2.highMaterial
+Info: Initializing high level material: Types\RTSSpecific\Units\RTSFactory\RTSFactoryGlass.highMaterial
+Info: Initializing high level material: Types\RTSSpecific\Units\RTSHeadquaters\RTSHeadquaters.highMaterial
+Info: Initializing high level material: Types\RTSSpecific\Units\RTSHeadquaters\RTSHeadquaters2.highMaterial
+Info: Initializing high level material: Types\RTSSpecific\Units\RTSMine\RTSMine.highMaterial
+Info: Initializing high level material: Types\RTSSpecific\Units\RTSMine\RTSMine2.highMaterial
+Info: Initializing high level material: Types\RTSSpecific\Units\RTSRobot\RTSRobotBullet\RTSRobotBulletHit.highMaterial
+Info: Initializing high level material: Types\Sky\BlueDaySky\BlueDaySky.highMaterial
+Info: Initializing high level material: Types\Special\WaterPlane\WaterSplash\WaterSplash.highMaterial
+Info: Initializing high level material: Types\Special\WaterPlane\WaterSplashWave\WaterSplashWave.highMaterial
+Info: Initializing high level material: Types\StaticObjects\EngineLogoPlacard\EngineLogoPlacard.highMaterial
+Info: Initializing high level material: Types\StaticObjects\Eyes\Eyes.highMaterial
+Info: Initializing high level material: Types\StaticObjects\Fir\Fir.highMaterial
+Info: Initializing high level material: Types\StaticObjects\Maple\Maple.highMaterial
+Info: Initializing high level material: Types\StaticObjects\Maple\MapleLOD1.highMaterial
+Info: Initializing high level material: Types\StaticObjects\MineBoard\MineBoard.highMaterial
+Info: Initializing high level material: Types\StaticObjects\OgreHead\BumpMappingExample\BumpMappingExample.highMaterial
+Info: Initializing high level material: Types\StaticObjects\OgreHead\OgreHead.highMaterial
+Info: Initializing high level material: Types\StaticObjects\OgreHead\OgreHeadAnimated.highMaterial
+Info: Initializing high level material: Types\StaticObjects\OgreHead\OgreHeadDynamicDiffuseScale.highMaterial
+Info: Initializing high level material: Types\StaticObjects\OgreHead\OgreHeadEyes.highMaterial
+Info: Initializing high level material: Types\StaticObjects\OgreHead\OgreHeadFangs.highMaterial
+Info: Initializing high level material: Types\StaticObjects\OgreHead\OgreHeadTransparentExample\OgreHeadTransparentExample.highMaterial
+Info: Initializing high level material: Types\StaticObjects\OgreHead\PerPixelLightingExample\PerPixelLightingExample.highMaterial
+Info: Initializing high level material: Types\StaticObjects\Palette\Palette.highMaterial
+Info: Initializing high level material: Types\StaticObjects\Palm\Palm.highMaterial
+Info: Initializing high level material: Types\StaticObjects\ParkingBarrier\ParkingBarrier.highMaterial
+Info: Initializing high level material: Types\StaticObjects\Pipe\Pipe.highMaterial
+Info: Initializing high level material: Types\StaticObjects\RabbitHead\RabbitHead.highMaterial
+Info: Initializing high level material: Types\StaticObjects\StaticBox\StaticBox.highMaterial
+Info: Initializing high level material: Types\StaticObjects\Stone\Stone.highMaterial
+Info: Initializing high level material: Types\StaticObjects\StopSign\StopSign.highMaterial
+Info: Initializing high level material: Types\StaticObjects\SwitchBox\SwitchBox.highMaterial
+Info: Initializing high level material: Types\StaticObjects\WallLamp\WallLamp.highMaterial
+Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat01.highMaterial
+Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat02.highMaterial
+Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat03.highMaterial
+Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat04.highMaterial
+Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat05.highMaterial
+Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat06.highMaterial
+Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat07.highMaterial
+Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat08.highMaterial
+Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat09.highMaterial
+Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat10.highMaterial
+Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat11.highMaterial
+Info: Initializing high level material: Types\Units\AwesomeAircraft\AircraftMat_Mat12.highMaterial
+Info: Initializing high level material: Types\Units\AwesomeAircraft\AwesomeAircraftWheelMat.highMaterial
+Info: Initializing high level material: Types\Units\Bug\Bug.highMaterial
+Info: Initializing high level material: Types\Units\Crane\CraneBase\CraneBase_ConcreteCleanColor.highMaterial
+Info: Initializing high level material: Types\Units\Crane\CraneBase\CraneBase_MetalPaintedColor.highMaterial
+Info: Initializing high level material: Types\Units\Crane\CraneBase\CraneBase_MetalPatern01Color.highMaterial
+Info: Initializing high level material: Types\Units\Crane\CraneBase\CraneBase_MetalPatern02Color.highMaterial
+Info: Initializing high level material: Types\Units\Crane\CraneGibbet\CraneGibbet_MetalPattern01Color.highMaterial
+Info: Initializing high level material: Types\Units\Crane\CraneMagnet\CraneMagnet_MetalPatern02Color.highMaterial
+Info: Initializing high level material: Types\Units\Crane\CraneTower\CraneTower_ConcreteBlockColor.highMaterial
+Info: Initializing high level material: Types\Units\Crane\CraneTower\CraneTower_MetalPaintedColor.highMaterial
+Info: Initializing high level material: Types\Units\Crane\CraneTower\CraneTower_MetalPatern_01Color.highMaterial
+Info: Initializing high level material: Types\Units\Crane\CraneTower\CraneTower_MetalPatern02Color.highMaterial
+Info: Initializing high level material: Types\Units\Crane\CraneTower\CraneTower_ObjectColor.highMaterial
+Info: Initializing high level material: Types\Units\Girl\GirlBody.highMaterial
+Info: Initializing high level material: Types\Units\Girl\GirlHairs.highMaterial
+Info: Initializing high level material: Types\Units\Helicopter\Helicopter.highMaterial
+Info: Initializing high level material: Types\Units\Rabbit\Rabbit.highMaterial
+Info: Initializing high level material: Types\Units\Robot\Robot.highMaterial
+Info: Initializing high level material: Types\Units\Robot\Robot2.highMaterial
+Info: Initializing high level material: Types\Units\Robot\RobotBullet\RobotBulletHit.highMaterial
+Info: Initializing high level material: Types\Units\TigerTank\TigerTank_Base.highMaterial
+Info: Initializing high level material: Types\Units\TigerTank\TigerTank_LeftTrack.highMaterial
+Info: Initializing high level material: Types\Units\TigerTank\TigerTank_RightTrack.highMaterial
+Info: Initializing high level material: Types\Units\Turret\Turret.highMaterial
+Info: Initializing high level material: Types\Units\Turret\TurretBullet\TurretBulletHit.highMaterial
+Info: Initializing high level material: Types\Units\Zombie\Zombie.highMaterial
+Info: Initializing high level material: Types\Units\Zombie\ZombieBullet\ZombieBullet.highMaterial
+Info: Initializing high level material: Types\Units\Zombie\ZombieBullet\ZombieBulletHitParticle.highMaterial
+Info: Initializing high level material: Types\Weapons\Hammer\Hammer.highMaterial
+Info: Initializing high level material: Types\Weapons\Shotgun\Shotgun.highMaterial
+Info: Initializing high level material: Types\Weapons\Shotgun\Shotgun_FPS.highMaterial
+Info: Initializing high level material: Types\Weapons\SubmachineGun\SubmachineGun.highMaterial
+Info: Initializing high level material: Types\Weapons\SubmachineGun\SubmachineGun_FPS.highMaterial
+Info: Initializing high level material: Types\Weapons\SubmachineGun\SubmachineGunFire.highMaterial
+Info: Initializing high level material: Utils\ResourceEditorGrid\ResourceEditorGrid_1.highMaterial
+Info: Initializing high level material: Utils\ResourceEditorGrid\ResourceEditorGrid_2.highMaterial
+Info: Sound system is initialized (Driver: DirectSound8)
+Info: OGRE: !!! Direct3D Device Lost!
+Info: OGRE: Releasing D3D9 default pool texture: c6/rt_brightPass/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c6/rt_brightPass/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c5/rt_luminance4/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c5/rt_luminance4/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c4/rt_luminance3/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c4/rt_luminance3/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c3/rt_luminance2/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c3/rt_luminance2/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c2/rt_luminance1/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c2/rt_luminance1/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c1/rt_luminance0/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c1/rt_luminance0/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c0/rt_full/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c0/rt_full/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c7/rt_bloomBlur/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c7/rt_bloomBlur/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c11/rt_lastAdaptedLuminance/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c11/rt_lastAdaptedLuminance/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c10/rt_adaptedLuminance/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c10/rt_adaptedLuminance/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c9/rt_bloomVertical/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c9/rt_bloomVertical/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c8/rt_bloomHorizontal/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c8/rt_bloomHorizontal/MainWindow
+Info: OGRE: D3D9TextureManager released:
+Info: OGRE: 12 unmanaged textures
+Info: OGRE: D3D9HardwareBufferManager released:
+Info: OGRE: 0 unmanaged vertex buffers
+Info: OGRE: 0 unmanaged index buffers
+Info: OGRE: Releasing D3D9 default pool texture: c6/rt_brightPass/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c6/rt_brightPass/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c5/rt_luminance4/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c5/rt_luminance4/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c4/rt_luminance3/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c4/rt_luminance3/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c3/rt_luminance2/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c3/rt_luminance2/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c2/rt_luminance1/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c2/rt_luminance1/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c1/rt_luminance0/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c1/rt_luminance0/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c0/rt_full/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c0/rt_full/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c7/rt_bloomBlur/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c7/rt_bloomBlur/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c11/rt_lastAdaptedLuminance/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c11/rt_lastAdaptedLuminance/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c10/rt_adaptedLuminance/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c10/rt_adaptedLuminance/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c9/rt_bloomVertical/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c9/rt_bloomVertical/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c8/rt_bloomHorizontal/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c8/rt_bloomHorizontal/MainWindow
+Info: OGRE: D3D9TextureManager released:
+Info: OGRE: 12 unmanaged textures
+Info: OGRE: D3D9HardwareBufferManager released:
+Info: OGRE: 0 unmanaged vertex buffers
+Info: OGRE: 0 unmanaged index buffers
+Info: OGRE: Reset device ok w:931 h:917
+Info: OGRE: Recreating D3D9 default pool texture: c6/rt_brightPass/MainWindow
+Info: OGRE: Recreated D3D9 default pool texture: c6/rt_brightPass/MainWindow
+Info: OGRE: Recreating D3D9 default pool texture: c5/rt_luminance4/MainWindow
+Info: OGRE: Recreated D3D9 default pool texture: c5/rt_luminance4/MainWindow
+Info: OGRE: Recreating D3D9 default pool texture: c4/rt_luminance3/MainWindow
+Info: OGRE: Recreated D3D9 default pool texture: c4/rt_luminance3/MainWindow
+Info: OGRE: Recreating D3D9 default pool texture: c3/rt_luminance2/MainWindow
+Info: OGRE: Recreated D3D9 default pool texture: c3/rt_luminance2/MainWindow
+Info: OGRE: Recreating D3D9 default pool texture: c2/rt_luminance1/MainWindow
+Info: OGRE: Recreated D3D9 default pool texture: c2/rt_luminance1/MainWindow
+Info: OGRE: Recreating D3D9 default pool texture: c1/rt_luminance0/MainWindow
+Info: OGRE: Recreated D3D9 default pool texture: c1/rt_luminance0/MainWindow
+Info: OGRE: Recreating D3D9 default pool texture: c0/rt_full/MainWindow
+Info: OGRE: Recreated D3D9 default pool texture: c0/rt_full/MainWindow
+Info: OGRE: Recreating D3D9 default pool texture: c7/rt_bloomBlur/MainWindow
+Info: OGRE: Recreated D3D9 default pool texture: c7/rt_bloomBlur/MainWindow
+Info: OGRE: Recreating D3D9 default pool texture: c11/rt_lastAdaptedLuminance/MainWindow
+Info: OGRE: Recreated D3D9 default pool texture: c11/rt_lastAdaptedLuminance/MainWindow
+Info: OGRE: Recreating D3D9 default pool texture: c10/rt_adaptedLuminance/MainWindow
+Info: OGRE: Recreated D3D9 default pool texture: c10/rt_adaptedLuminance/MainWindow
+Info: OGRE: Recreating D3D9 default pool texture: c9/rt_bloomVertical/MainWindow
+Info: OGRE: Recreated D3D9 default pool texture: c9/rt_bloomVertical/MainWindow
+Info: OGRE: Recreating D3D9 default pool texture: c8/rt_bloomHorizontal/MainWindow
+Info: OGRE: Recreated D3D9 default pool texture: c8/rt_bloomHorizontal/MainWindow
+Info: OGRE: D3D9TextureManager recreated:
+Info: OGRE: 12 unmanaged textures
+Info: OGRE: D3D9HardwareBufferManager recreated:
+Info: OGRE: 0 unmanaged vertex buffers
+Info: OGRE: 0 unmanaged index buffers
+Info: OGRE: !!! Direct3D Device successfully restored.
+Info: OGRE: Texture: spot_shadow_fade.png: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+Info: OGRE: Mesh: Loading Utils\ResourceEditorGrid\ResourceEditorGrid.mesh.
+Info: OGRE: Texture: Utils\ResourceEditorGrid\ResourceEditorGrid_2.png: Loading 1 faces(PF_R8G8B8,4x4x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,4x4x1.
+Info: OGRE: Texture: Utils\ResourceEditorGrid\ResourceEditorGrid_1.png: Loading 1 faces(PF_R8G8B8,4x4x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,4x4x1.
+Info: OGRE: Mesh: Loading Types\Units\AwesomeAircraft\AwesomeAircraft.mesh.
+Info: OGRE: Skeleton: Loading Types\Units\AwesomeAircraft\AwesomeAircraft.skeleton
+Info: OGRE: Mesh: Loading Types\Units\AwesomeAircraft\AwesomeAircraft.mesh.
+Info: OGRE: Skeleton: Loading Types\Units\AwesomeAircraft\AwesomeAircraft.skeleton
+Info: OGRE: Texture: Types\Units\AwesomeAircraft\WMR.JPG: Loading 1 faces(PF_R8G8B8,304x453x1) with 8 generated mipmaps from Image. Internal format is PF_X8R8G8B8,304x453x1.
+Info: OGRE: Texture: Types\Units\AwesomeAircraft\WML.JPG: Loading 1 faces(PF_R8G8B8,304x453x1) with 8 generated mipmaps from Image. Internal format is PF_X8R8G8B8,304x453x1.
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 10 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Texture: Types\Units\AwesomeAircraft\BL.JPG: Loading 1 faces(PF_R8G8B8,750x247x1) with 9 generated mipmaps from Image. Internal format is PF_X8R8G8B8,750x247x1.
+Info: OGRE: Texture: Types\Units\AwesomeAircraft\BR.JPG: Loading 1 faces(PF_R8G8B8,750x247x1) with 9 generated mipmaps from Image. Internal format is PF_X8R8G8B8,750x247x1.
+Info: OGRE: Texture: Types\Units\AwesomeAircraft\WBK.JPG: Loading 1 faces(PF_R8G8B8,107x267x1) with 8 generated mipmaps from Image. Internal format is PF_X8R8G8B8,107x267x1.
+Info: OGRE: Texture: Types\Base\SkyBox\DefaultSkyBox_fr.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+Info: OGRE: Texture: Types\Base\SkyBox\DefaultSkyBox_bk.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+Info: OGRE: Texture: Types\Base\SkyBox\DefaultSkyBox_lf.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+Info: OGRE: Texture: Types\Base\SkyBox\DefaultSkyBox_rt.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+Info: OGRE: Texture: Types\Base\SkyBox\DefaultSkyBox_up.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+Info: OGRE: Texture: Types\Base\SkyBox\DefaultSkyBox_dn.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+Info: OGRE: Mesh: Loading Types\Units\AwesomeAircraft\AwesomeAircraft.mesh.
+Info: OGRE: Skeleton: Loading Types\Units\AwesomeAircraft\AwesomeAircraft.skeleton
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 24 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Texture: Materials\Common\White.jpg: Loading 1 faces(PF_R8G8B8,32x32x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,32x32x1.
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 38 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Mesh: Loading Types/Units/AwesomeAircraft/AwesomeAircraftWheel.mesh.
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 42 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 52 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 56 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 60 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 64 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 68 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 72 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 76 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 80 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 84 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 88 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 92 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 96 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 100 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 104 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 108 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 112 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 116 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 120 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 124 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 128 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 132 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 136 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 140 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 144 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 148 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 152 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 156 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 160 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 164 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 168 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 172 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 176 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 180 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 184 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 188 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 192 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 196 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 200 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 204 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 208 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 212 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 216 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 220 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 224 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 228 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 232 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 236 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 240 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 244 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 248 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 252 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 256 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 260 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 264 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 268 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 272 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 276 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 280 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 284 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 288 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 292 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 296 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 300 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 304 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 308 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 312 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 316 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 320 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 324 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 328 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 332 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 336 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 340 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 344 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 348 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 352 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 356 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 360 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 364 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 368 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 372 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 376 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 380 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 384 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 388 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 392 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 396 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 400 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 404 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 408 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 412 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 416 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 420 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 424 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 428 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 432 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 436 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 440 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 444 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 448 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 452 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 456 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 460 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 464 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 468 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 472 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 476 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 480 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 484 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 488 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 492 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 496 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 500 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 504 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 508 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 512 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 516 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 520 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 524 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 528 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 532 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 536 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 540 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 544 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 548 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 552 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 556 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 560 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 564 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 568 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 572 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 576 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 580 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 584 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 588 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 592 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 596 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 600 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 604 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 608 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 612 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 616 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 620 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 624 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 628 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 632 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 636 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 640 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 644 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 648 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 652 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 656 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 660 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 664 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 668 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 672 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 676 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 680 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 684 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 688 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 692 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 696 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 700 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 704 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 708 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 712 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 716 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 720 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 724 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 728 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 732 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 736 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 740 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 744 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 748 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 752 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 756 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Can't assign material AircraftMat/Material04 to SubEntity of RenderMeshObject 760 0 because this Material does not exist. Have you forgotten to define it in a .material script?
+Info: OGRE: Mesh: Loading Types\Units\AwesomeAircraft\AwesomeAircraftWheel.mesh.
+Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameEntities.AwesomeAircraft.OnPostCreate(Boolean loaded) in H:\Project_Work\FlightGame\Src\GameEntities\Action Specific\AwesomeAircraft.cs:line 70
+   at Engine.EntitySystem.Entity.PostCreate()
+   at e.eK.A()
+   at e.eK.OnRender(Camera A)
+   at e.eH.OnRenderFrame()
+   at Engine.EngineApp.C()
+   at Engine.Renderer.RendererWorld.BeginRenderFrameDelegate.Invoke()
+   at Engine.Renderer.RendererWorld.A(RenderTarget A, Boolean a)
+   at Engine.Renderer.RendererWorld._RenderOneFrame()
+   at Engine.EngineApp.c()
+   at Engine.EngineApp.RenderScene()
+   at e.eC.b()
+   at e.eR.a()
+   at e.eR.A()

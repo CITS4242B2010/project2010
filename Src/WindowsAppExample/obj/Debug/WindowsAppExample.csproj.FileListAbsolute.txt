@@ -28,3 +28,13 @@ D:\Fariborz\FlightGame\Src\WindowsAppExample\obj\Debug\GenerateResource-ResGen.r
 D:\Fariborz\FlightGame\Src\WindowsAppExample\obj\Debug\GenerateResource-ResGen.write.1.tlog
 D:\Fariborz\FlightGame\Src\WindowsAppExample\obj\Debug\WindowsAppExample.exe
 D:\Fariborz\FlightGame\Src\WindowsAppExample\obj\Debug\WindowsAppExample.pdb
+D:\FlightGame\Bin\WindowsAppExample.exe
+D:\FlightGame\Bin\WindowsAppExample.pdb
+D:\FlightGame\Src\WindowsAppExample\obj\Debug\ResolveAssemblyReference.cache
+D:\FlightGame\Src\WindowsAppExample\obj\Debug\WindowsAppExample.AdditionalForm.resources
+D:\FlightGame\Src\WindowsAppExample\obj\Debug\WindowsAppExample.MainForm.resources
+D:\FlightGame\Src\WindowsAppExample\obj\Debug\WindowsAppExample.Properties.Resources.resources
+D:\FlightGame\Src\WindowsAppExample\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\FlightGame\Src\WindowsAppExample\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\FlightGame\Src\WindowsAppExample\obj\Debug\WindowsAppExample.exe
+D:\FlightGame\Src\WindowsAppExample\obj\Debug\WindowsAppExample.pdb

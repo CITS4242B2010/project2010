@@ -18,7 +18,7 @@ type AwesomeAircraft
 		mesh
 		{
 			meshName = Types\Units\AwesomeAircraft\AwesomeAircraft.mesh
-			position = 0 0.1684506 0.3434859
+			position = 0 0.1684506 0.5375133
 		}
 	}
 	dieObjects

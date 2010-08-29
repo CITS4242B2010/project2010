@@ -16,3 +16,9 @@ D:\Fariborz\FlightGame\Bin\GameCommon.xml
 D:\Fariborz\FlightGame\Src\GameCommon\obj\Debug\ResolveAssemblyReference.cache
 D:\Fariborz\FlightGame\Src\GameCommon\obj\Debug\GameCommon.dll
 D:\Fariborz\FlightGame\Src\GameCommon\obj\Debug\GameCommon.pdb
+D:\FlightGame\Bin\GameCommon.dll
+D:\FlightGame\Bin\GameCommon.pdb
+D:\FlightGame\Bin\GameCommon.xml
+D:\FlightGame\Src\GameCommon\obj\Debug\ResolveAssemblyReference.cache
+D:\FlightGame\Src\GameCommon\obj\Debug\GameCommon.dll
+D:\FlightGame\Src\GameCommon\obj\Debug\GameCommon.pdb

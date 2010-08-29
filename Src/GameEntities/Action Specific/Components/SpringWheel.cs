@@ -39,7 +39,12 @@ namespace GameEntities
             unit.Attach(mesh);
 
         }
-
+        public void changeBone(Bone newBone)
+        {
+            bone = newBone;
+            mesh.PositionOffset = bone.GetDerivedPosition();
+            unit.Attach(mesh);
+        }
         public void ApplyForce(Body body, float TickDelta)
         {
             Vec3 originalBoneDerivedPosition = bone.Parent.Position + bone.Parent.Rotation * originalBonePosition;
